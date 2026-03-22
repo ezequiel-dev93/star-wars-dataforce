@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "slug": "luke-skywalker",
+    "name": "Luke Skywalker",
+    "physical_traits": {
+      "height_cm": 172.0,
+      "mass_kg": 77.0,
+      "hair_color": "blond",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Luke Skywalker.",
+    "appearances": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.584158"
+  },
+  {
+    "id": 5,
+    "slug": "leia-organa",
+    "name": "Leia Organa",
+    "physical_traits": {
+      "height_cm": 150.0,
+      "mass_kg": 49.0,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "female",
+    "species": [],
+    "homeworld": "Alderaan",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Leia Organa.",
+    "appearances": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.588237"
+  },
+  {
+    "id": 6,
+    "slug": "owen-lars",
+    "name": "Owen Lars",
+    "physical_traits": {
+      "height_cm": 178.0,
+      "mass_kg": 120.0,
+      "hair_color": "brown, grey",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Owen Lars.",
+    "appearances": [
+      "A New Hope",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.588237"
+  },
+  {
+    "id": 7,
+    "slug": "beru-whitesun-lars",
+    "name": "Beru Whitesun lars",
+    "physical_traits": {
+      "height_cm": 165.0,
+      "mass_kg": 75.0,
+      "hair_color": "brown",
+      "eye_color": "blue"
+    },
+    "gender": "female",
+    "species": [],
+    "homeworld": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Beru Whitesun lars.",
+    "appearances": [
+      "A New Hope",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.589236"
+  },
+  {
+    "id": 9,
+    "slug": "biggs-darklighter",
+    "name": "Biggs Darklighter",
+    "physical_traits": {
+      "height_cm": 183.0,
+      "mass_kg": 84.0,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Biggs Darklighter.",
+    "appearances": [
+      "A New Hope"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.591844"
+  },
+  {
+    "id": 10,
+    "slug": "obi-wan-kenobi",
+    "name": "Obi-Wan Kenobi",
+    "physical_traits": {
+      "height_cm": 182.0,
+      "mass_kg": 77.0,
+      "hair_color": "auburn, white",
+      "eye_color": "blue-gray"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Stewjon",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Obi-Wan Kenobi.",
+    "appearances": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.591844"
+  },
+  {
+    "id": 11,
+    "slug": "anakin-skywalker",
+    "name": "Anakin Skywalker",
+    "physical_traits": {
+      "height_cm": 188.0,
+      "mass_kg": 84.0,
+      "hair_color": "blond",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Anakin Skywalker.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.591844"
+  },
+  {
+    "id": 13,
+    "slug": "chewbacca",
+    "name": "Chewbacca",
+    "physical_traits": {
+      "height_cm": 228.0,
+      "mass_kg": 112.0,
+      "hair_color": "brown",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Kashyyyk",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Chewbacca.",
+    "appearances": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.593357"
+  },
+  {
+    "id": 14,
+    "slug": "han-solo",
+    "name": "Han Solo",
+    "physical_traits": {
+      "height_cm": 180.0,
+      "mass_kg": 80.0,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Corellia",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Han Solo.",
+    "appearances": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.593357"
+  },
+  {
+    "id": 18,
+    "slug": "wedge-antilles",
+    "name": "Wedge Antilles",
+    "physical_traits": {
+      "height_cm": 170.0,
+      "mass_kg": 77.0,
+      "hair_color": "brown",
+      "eye_color": "hazel"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Corellia",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Wedge Antilles.",
+    "appearances": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.596878"
+  },
+  {
+    "id": 19,
+    "slug": "jek-tono-porkins",
+    "name": "Jek Tono Porkins",
+    "physical_traits": {
+      "height_cm": 180.0,
+      "mass_kg": 110.0,
+      "hair_color": "brown",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Bestine IV",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Jek Tono Porkins.",
+    "appearances": [
+      "A New Hope"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.597384"
+  },
+  {
+    "id": 20,
+    "slug": "yoda",
+    "name": "Yoda",
+    "physical_traits": {
+      "height_cm": 66.0,
+      "mass_kg": 17.0,
+      "hair_color": "white",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "unknown",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Yoda.",
+    "appearances": [
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.597384"
+  },
+  {
+    "id": 21,
+    "slug": "palpatine",
+    "name": "Palpatine",
+    "physical_traits": {
+      "height_cm": 170.0,
+      "mass_kg": 75.0,
+      "hair_color": "grey",
+      "eye_color": "yellow"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Palpatine.",
+    "appearances": [
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.597384"
+  },
+  {
+    "id": 22,
+    "slug": "boba-fett",
+    "name": "Boba Fett",
+    "physical_traits": {
+      "height_cm": 183.0,
+      "mass_kg": 78.2,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Kamino",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Boba Fett.",
+    "appearances": [
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.597384"
+  },
+  {
+    "id": 25,
+    "slug": "lando-calrissian",
+    "name": "Lando Calrissian",
+    "physical_traits": {
+      "height_cm": 177.0,
+      "mass_kg": 79.0,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Socorro",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Lando Calrissian.",
+    "appearances": [
+      "The Empire Strikes Back",
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.599496"
+  },
+  {
+    "id": 30,
+    "slug": "wicket-systri-warrick",
+    "name": "Wicket Systri Warrick",
+    "physical_traits": {
+      "height_cm": 88.0,
+      "mass_kg": 20.0,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Endor",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Wicket Systri Warrick.",
+    "appearances": [
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.606550"
+  },
+  {
+    "id": 32,
+    "slug": "qui-gon-jinn",
+    "name": "Qui-Gon Jinn",
+    "physical_traits": {
+      "height_cm": 193.0,
+      "mass_kg": 89.0,
+      "hair_color": "brown",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "unknown",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Qui-Gon Jinn.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.608071"
+  },
+  {
+    "id": 35,
+    "slug": "padmé-amidala",
+    "name": "Padmé Amidala",
+    "physical_traits": {
+      "height_cm": 185.0,
+      "mass_kg": 45.0,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "female",
+    "species": [],
+    "homeworld": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Padmé Amidala.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.611086"
+  },
+  {
+    "id": 52,
+    "slug": "ki-adi-mundi",
+    "name": "Ki-Adi-Mundi",
+    "physical_traits": {
+      "height_cm": 198.0,
+      "mass_kg": 82.0,
+      "hair_color": "white",
+      "eye_color": "yellow"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Cerea",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Ki-Adi-Mundi.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.636535"
+  },
+  {
+    "id": 60,
+    "slug": "gregar-typho",
+    "name": "Gregar Typho",
+    "physical_traits": {
+      "height_cm": 185.0,
+      "mass_kg": 85.0,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Gregar Typho.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.648029"
+  },
+  {
+    "id": 64,
+    "slug": "luminara-unduli",
+    "name": "Luminara Unduli",
+    "physical_traits": {
+      "height_cm": 170.0,
+      "mass_kg": 56.2,
+      "hair_color": "black",
+      "eye_color": "blue"
+    },
+    "gender": "female",
+    "species": [],
+    "homeworld": "Mirial",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Luminara Unduli.",
+    "appearances": [
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.652339"
+  },
+  {
+    "id": 65,
+    "slug": "barriss-offee",
+    "name": "Barriss Offee",
+    "physical_traits": {
+      "height_cm": 166.0,
+      "mass_kg": 50.0,
+      "hair_color": "black",
+      "eye_color": "blue"
+    },
+    "gender": "female",
+    "species": [],
+    "homeworld": "Mirial",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Barriss Offee.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.652339"
+  },
+  {
+    "id": 67,
+    "slug": "dooku",
+    "name": "Dooku",
+    "physical_traits": {
+      "height_cm": 193.0,
+      "mass_kg": 80.0,
+      "hair_color": "white",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Serenno",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Dooku.",
+    "appearances": [
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.654346"
+  },
+  {
+    "id": 69,
+    "slug": "jango-fett",
+    "name": "Jango Fett",
+    "physical_traits": {
+      "height_cm": 183.0,
+      "mass_kg": 79.0,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Concord Dawn",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Jango Fett.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.655856"
+  },
+  {
+    "id": 70,
+    "slug": "zam-wesell",
+    "name": "Zam Wesell",
+    "physical_traits": {
+      "height_cm": 168.0,
+      "mass_kg": 55.0,
+      "hair_color": "blonde",
+      "eye_color": "yellow"
+    },
+    "gender": "female",
+    "species": [],
+    "homeworld": "Zolan",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Zam Wesell.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.655856"
+  },
+  {
+    "id": 80,
+    "slug": "tarfful",
+    "name": "Tarfful",
+    "physical_traits": {
+      "height_cm": 234.0,
+      "mass_kg": 136.0,
+      "hair_color": "brown",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Kashyyyk",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Tarfful.",
+    "appearances": [
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.669764"
+  },
+  {
+    "id": 81,
+    "slug": "raymus-antilles",
+    "name": "Raymus Antilles",
+    "physical_traits": {
+      "height_cm": 188.0,
+      "mass_kg": 79.0,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "homeworld": "Alderaan",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Raymus Antilles.",
+    "appearances": [
+      "A New Hope",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-12T00:04:06.669764"
+  }
+]
