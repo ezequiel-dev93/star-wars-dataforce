@@ -1,8 +1,24 @@
 from __future__ import annotations
 import re
-from datetime import datetime
+from datetime import datetime, UTC
 from typing import Optional
 from pydantic import BaseModel, Field, field_validator, model_validator
+
+_UNKNOWN_VALUES = {'unknown', 'n/a', 'none', '', 'na'}
+
+
+def normalize_slug(value: str) -> str:
+    """Normaliza un string a slug consistente con CharacterEntity.
+
+    Convierte a minúsculas, remueve caracteres especiales,
+    reemplaza espacios con guiones, y elimina guiones duplicados.
+    """
+    s = value.strip().lower()
+    s = re.sub(r'[^\w\s-]', '', s)
+    s = re.sub(r'[\s_]+', '-', s)
+    s = re.sub(r'-{2,}', '-', s)
+    return s.strip('-')
+
 
 class PhysicalTraits(BaseModel):
     height_cm: Optional[float] = Field(None, ge=0)
@@ -10,10 +26,28 @@ class PhysicalTraits(BaseModel):
     hair_color: Optional[str] = None
     eye_color: Optional[str] = None
 
+    @field_validator('height_cm', 'mass_kg', mode='before')
+    @classmethod
+    def coerce_numeric(cls, v: object) -> Optional[float]:
+        """Convierte strings numericos a float y valores desconocidos a None."""
+        if v is None:
+            return None
+        if isinstance(v, (int, float)):
+            return float(v)
+        if isinstance(v, str):
+            cleaned = v.replace(',', '.').strip()
+            if cleaned.lower() in _UNKNOWN_VALUES:
+                return None
+            try:
+                return float(cleaned)
+            except ValueError:
+                return None
+        return None
+
     @field_validator('hair_color', 'eye_color', mode='before')
     @classmethod
     def normalize_unknown(cls, v: object) -> Optional[str]:
-        if isinstance(v, str) and v.strip().lower() in {'unknown', 'n/a', 'none', ''}:
+        if isinstance(v, str) and v.strip().lower() in _UNKNOWN_VALUES:
             return None
         return v
 
@@ -34,7 +68,7 @@ class CharacterEntity(BaseModel):
     physical_traits: PhysicalTraits = Field(default_factory=PhysicalTraits)
     gender: Optional[str] = None
     species: list[str] = Field(default_factory=list)
-    homeworld: Optional[str] = None
+    planets: list[str] = Field(default_factory=list)
     affiliations: list[str] = Field(default_factory=list)
     masters: list[str] = Field(default_factory=list)
     apprentices: list[str] = Field(default_factory=list)
@@ -46,27 +80,23 @@ class CharacterEntity(BaseModel):
     force_sensitive: bool = False
     is_canon: bool = True
     avatar_url: str = ''
-    created_at: datetime = Field(default_factory=datetime.utcnow)
+    created_at: datetime = Field(default_factory=lambda: datetime.now(UTC))
 
     @field_validator('slug', mode='before')
     @classmethod
     def build_slug(cls, v: object) -> str:
         if not isinstance(v, str):
             raise ValueError('El slug debe ser str')
-        s = v.strip().lower()
-        s = re.sub(r'[^\w\s-]', '', s)
-        s = re.sub(r'[\s_]+', '-', s)
-        s = re.sub(r'-{2,}', '-', s)
-        return s.strip('-')
+        return normalize_slug(v)
 
     @field_validator('gender', mode='before')
     @classmethod
     def normalize_gender(cls, v: object) -> Optional[str]:
-        if isinstance(v, str) and v.strip().lower() in {'unknown', 'n/a', 'none', ''}:
+        if isinstance(v, str) and v.strip().lower() in _UNKNOWN_VALUES:
             return None
         return v
 
-    @field_validator('species', 'affiliations', 'masters', 'apprentices', 'appearances', 'portrayed_by', mode='before')
+    @field_validator('species', 'planets', 'affiliations', 'masters', 'apprentices', 'appearances', 'portrayed_by', mode='before')
     @classmethod
     def ensure_list(cls, v: object) -> list:
         if v is None:

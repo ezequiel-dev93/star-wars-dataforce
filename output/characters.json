@@ -11,11 +11,11 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Tatooine",
+    "planets": "Tatooine",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Luke Skywalker.",
+    "description": "Luke Skywalker was a Tatooine farmboy who rose from humble beginnings to become one of the greatest Jedi the galaxy has ever known. Along with his friends Princess Leia and Han Solo, Luke battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith. A generation later, the location of the famed Jedi master was one of the galaxy’s greatest mysteries. Haunted by Ben Solo’s fall to evil and convinced the Jedi had to end, Luke sought exile on a distant world, ignoring the galaxy’s pleas for help. But his solitude would be interrupted – and Luke Skywalker had one final, momentous role to play in the struggle between good and evil. - Luke Skywalker 1.",
     "appearances": [
       "A New Hope",
       "The Empire Strikes Back",
@@ -24,7 +24,7 @@
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "19BBY",
       "location": null
     },
     "death": {
@@ -34,7 +34,126 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.584158"
+    "created_at": "2026-03-24T16:05:42.669189"
+  },
+  {
+    "id": 2,
+    "slug": "c-3po",
+    "name": "C-3PO",
+    "physical_traits": {
+      "height_cm": 167.0,
+      "mass_kg": 75.0,
+      "hair_color": null,
+      "eye_color": "yellow"
+    },
+    "gender": null,
+    "species": [
+      "Droid"
+    ],
+    "planets": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "C-3PO longs for more peaceful times, but his continued service to the Resistance — and his knowledge of more than seven million forms of communication — keeps the worry-prone droid in the frontlines of galactic conflict. Programmed for etiquette and protocol, Threepio was built by a young Anakin Skywalker, and has been a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy’s most defining moments and thrilling battles. Since the Empire’s defeat, C-3PO has served Leia Organa, head of a Resistance spy ring aimed at undermining the First Order. [Show]",
+    "appearances": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "112BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.669189"
+  },
+  {
+    "id": 3,
+    "slug": "r2-d2",
+    "name": "R2-D2",
+    "physical_traits": {
+      "height_cm": 96.0,
+      "mass_kg": 32.0,
+      "hair_color": null,
+      "eye_color": "red"
+    },
+    "gender": null,
+    "species": [
+      "Droid"
+    ],
+    "planets": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A reliable and versatile astromech droid, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO. [Show]",
+    "appearances": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "33BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.669189"
+  },
+  {
+    "id": 4,
+    "slug": "darth-vader",
+    "name": "Darth Vader",
+    "physical_traits": {
+      "height_cm": 202.0,
+      "mass_kg": 136.0,
+      "hair_color": null,
+      "eye_color": "yellow"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force. Forever scarred by his defeat on Mustafar, Vader was transformed into a cybernetically-enhanced Sith Lord. At the dawn of the Empire, Vader led the Empire’s eradication of the Jedi Order and the search for survivors. He remained in service of the Emperor -- the evil Darth Sidious -- for decades, enforcing his Master’s will and seeking to crush the Rebel Alliance and other detractors. But there was still good in him…",
+    "appearances": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "41.9BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.669189"
   },
   {
     "id": 5,
@@ -48,11 +167,11 @@
     },
     "gender": "female",
     "species": [],
-    "homeworld": "Alderaan",
+    "planets": "Alderaan",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Leia Organa.",
+    "description": "Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny. Daughter of Padmé Amidala and Anakin Skywalker, sister of Luke Skywalker, and with a soft spot for scoundrels, Leia ranked among the galaxy’s great heroes. But life under the New Republic proved difficult for her. Sidelined by a new generation of political leaders, she struck out on her own to oppose the First Order as founder of the Resistance. These setbacks in her political career were accompanied by more personal losses, which she endured with her seemingly inexhaustible will.",
     "appearances": [
       "A New Hope",
       "The Empire Strikes Back",
@@ -61,7 +180,7 @@
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "19BBY",
       "location": null
     },
     "death": {
@@ -71,7 +190,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.588237"
+    "created_at": "2026-03-24T16:05:42.670202"
   },
   {
     "id": 6,
@@ -84,12 +203,14 @@
       "eye_color": "blue"
     },
     "gender": "male",
-    "species": [],
-    "homeworld": "Tatooine",
+    "species": [
+      "Human"
+    ],
+    "planets": "Tatooine",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Owen Lars.",
+    "description": "Owen Lars continued his father Cliegg’s efforts to build his homestead into a productive farm, working alongside his wife, Beru. Helping with the dreary chores required to keep the farm profitable, Owen relies on his nephew, Luke Skywalker, whom the couple raised since birth. Like most moisture farmers on Tatooine, Lars is fiercely protective of his land and his family. When there is an intrusion on the tranquility of the Lars Homestead, Owen defends his home.",
     "appearances": [
       "A New Hope",
       "Attack of the Clones",
@@ -97,7 +218,7 @@
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "52BBY",
       "location": null
     },
     "death": {
@@ -107,7 +228,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.588237"
+    "created_at": "2026-03-24T16:05:42.670202"
   },
   {
     "id": 7,
@@ -121,15 +242,51 @@
     },
     "gender": "female",
     "species": [],
-    "homeworld": "Tatooine",
+    "planets": "Tatooine",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Beru Whitesun lars.",
+    "description": "In her youth, Beru Whitesun's aspirations did not reach beyond Tatooine. The shy young woman was content to marry Owen Lars and lead the tough life of a moisture farmer. In time, she became a surrogate mother and guardian to their nephew, Luke Skywalker. Fiercely protective of the child, Beru would do anything to ensure Luke's safety and happiness.",
     "appearances": [
       "A New Hope",
       "Attack of the Clones",
       "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "47BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.670202"
+  },
+  {
+    "id": 8,
+    "slug": "r5-d4",
+    "name": "R5-D4",
+    "physical_traits": {
+      "height_cm": 97.0,
+      "mass_kg": 32.0,
+      "hair_color": null,
+      "eye_color": "red"
+    },
+    "gender": null,
+    "species": [
+      "Droid"
+    ],
+    "planets": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A red astromech droid, R5-D4 thought he'd found a home when the Jawas sold him to Owen Lars, along with the protocol droid C-3PO. But R5's motivator blew as he rolled away from the sandcrawler, forcing the Jawas to take him back in exchange for R2-D2.",
+    "appearances": [
+      "A New Hope"
     ],
     "portrayed_by": [],
     "birth": {
@@ -143,7 +300,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.589236"
+    "created_at": "2026-03-24T16:05:42.670202"
   },
   {
     "id": 9,
@@ -157,17 +314,17 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Tatooine",
+    "planets": "Tatooine",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Biggs Darklighter.",
+    "description": "Biggs Darklighter grew up on Tatooine with Luke Skywalker, and shared his friend's dreams of escaping the dull desert world. After graduating from the Imperial Academy, he defected from the Empire's service to join the Rebellion. He and Luke were reunited at Yavin 4's Rebel base, and flew together against the Death Star. Luke returned from that mission as a hero, but Biggs did not survive.",
     "appearances": [
       "A New Hope"
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "24BBY",
       "location": null
     },
     "death": {
@@ -177,7 +334,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.591844"
+    "created_at": "2026-03-24T16:05:42.670202"
   },
   {
     "id": 10,
@@ -191,11 +348,17 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Stewjon",
+    "planets": "Stewjon",
     "affiliations": [],
-    "masters": [],
-    "apprentices": [],
-    "description": "No description available for Obi-Wan Kenobi.",
+    "masters": [
+      "Qui-Gon Jinn",
+      "Yoda"
+    ],
+    "apprentices": [
+      "Anakin Skywalker",
+      "Luke Skywalker"
+    ],
+    "description": "A legendary Jedi Master, Obi-Wan Kenobi was a noble man and gifted in the ways of the Force. He trained Anakin Skywalker, served as a general in the Republic Army during the Clone Wars, and guided Luke Skywalker as a mentor.",
     "appearances": [
       "A New Hope",
       "The Empire Strikes Back",
@@ -206,7 +369,7 @@
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "57BBY",
       "location": null
     },
     "death": {
@@ -216,7 +379,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.591844"
+    "created_at": "2026-03-24T16:05:42.670753"
   },
   {
     "id": 11,
@@ -230,11 +393,11 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Tatooine",
+    "planets": "Tatooine",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Anakin Skywalker.",
+    "description": "Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever. Some even believed he was the prophesied Chosen One who would bring balance to the Force. Always pushing the limits of his Jedi training, seeking to excel and live up to his reputation, Skywalker's passion often brought him into conflict with his mentor, Jedi Master Obi-Wan Kenobi. A hero of the Clone Wars, Anakin was caring and compassionate, but suffered from a deep fear of loss that would prove to be his downfall.",
     "appearances": [
       "The Phantom Menace",
       "Attack of the Clones",
@@ -242,7 +405,7 @@
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "41.9BBY",
       "location": null
     },
     "death": {
@@ -252,7 +415,42 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.591844"
+    "created_at": "2026-03-24T16:05:42.670753"
+  },
+  {
+    "id": 12,
+    "slug": "wilhuff-tarkin",
+    "name": "Wilhuff Tarkin",
+    "physical_traits": {
+      "height_cm": 180.0,
+      "mass_kg": null,
+      "hair_color": "auburn, grey",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Eriadu",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "An ambitious, ruthless proponent of military power, Wilhuff Tarkin became a favorite of Supreme Chancellor Palpatine and rose rapidly through the Imperial ranks. Shortly after the Empire's creation, he was put in charge of the construction of the Death Star. Tarkin saw the Death Star as a way to crush all dissent to the Empire's rule -- fear of the station's planet-killing superlaser would keep the galaxy's star systems in line. He demonstrated the station's power by destroying Alderaan, but died soon afterwards when the Death Star itself was destroyed.",
+    "appearances": [
+      "A New Hope",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "64BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.670753"
   },
   {
     "id": 13,
@@ -265,12 +463,14 @@
       "eye_color": "blue"
     },
     "gender": "male",
-    "species": [],
-    "homeworld": "Kashyyyk",
+    "species": [
+      "Wookie"
+    ],
+    "planets": "Kashyyyk",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Chewbacca.",
+    "description": "A legendary Wookiee warrior and Han Solo’s longtime co-pilot, Chewbacca continues to serve as faithful first mate to carry out daring missions against the First Order behind the controls of the Millennium Falcon. Known as Chewie to his closest friends, he was part of a core group of rebels who restored freedom to the galaxy during the reign of the Galactic Empire. Known for his short temper and accuracy with a bowcaster, Chewie also has a big heart and unwavering loyalty to his friends.",
     "appearances": [
       "A New Hope",
       "The Empire Strikes Back",
@@ -279,7 +479,7 @@
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "200BBY",
       "location": null
     },
     "death": {
@@ -289,7 +489,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.593357"
+    "created_at": "2026-03-24T16:05:42.670753"
   },
   {
     "id": 14,
@@ -303,11 +503,11 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Corellia",
+    "planets": "Corellia",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Han Solo.",
+    "description": "Han Solo rose from an impoverished childhood on the mean streets of Corellia to become one of the heroes of the Rebel Alliance. As captain of the Millennium Falcon, Han and his co-pilot Chewbacca came to believe in the cause of galactic freedom, joining Luke Skywalker and Princess Leia Organa in the fight against the Empire. After the Battle of Endor, Han faced difficult times in a chaotic galaxy, leading to a shattering confrontation with his estranged son Ben.",
     "appearances": [
       "A New Hope",
       "The Empire Strikes Back",
@@ -315,7 +515,7 @@
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "29BBY",
       "location": null
     },
     "death": {
@@ -325,7 +525,81 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.593357"
+    "created_at": "2026-03-24T16:05:42.670753"
+  },
+  {
+    "id": 15,
+    "slug": "greedo",
+    "name": "Greedo",
+    "physical_traits": {
+      "height_cm": 173.0,
+      "mass_kg": 74.0,
+      "hair_color": null,
+      "eye_color": "black"
+    },
+    "gender": "male",
+    "species": [
+      "Rodian"
+    ],
+    "planets": "Rodia",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Greedo was a Rodian bounty hunter with a tapir-like snout, bulbous eyes, pea-green skin, and a crest of spines atop his skull. He was overzealous and a bit slow on the take, not to mention a pretty poor shot with a blaster. Though he fancied himself a big time bounty hunter in the employ of no less an underworld figure than Jabba the Hutt, in truth, no one took him too seriously.",
+    "appearances": [
+      "A New Hope"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "44BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.670753"
+  },
+  {
+    "id": 16,
+    "slug": "jabba-desilijic-tiure",
+    "name": "Jabba Desilijic Tiure",
+    "physical_traits": {
+      "height_cm": 175.0,
+      "mass_kg": 1.358,
+      "hair_color": null,
+      "eye_color": "orange"
+    },
+    "gender": "hermaphrodite",
+    "species": [
+      "Hutt"
+    ],
+    "planets": "Nal Hutta",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "First Mission, The High Republic Adventures (2021) 6, The High Republic Adventures (2021) 7, Mace Windu: The Glass Abyss, The Lost Nightsister, Rampage, Star Wars (2015) 7, Star Wars (2015) 20, Choose Your Destiny: A Podracer Mission, Han Solo & Chewbacca 1, Han Solo & Chewbacca 2, Han Solo & Chewbacca 9, Han Solo & Chewbacca 10, Choose Your Destiny: A Han & Chewie Adventure, The Hoojib Menace, From a Certain Point of View, Star Wars (2015) 4, Doctor Aphra (2016) 9, Star Wars (2015) 34, Age of Rebellion - Jabba the Hutt 1, Rabbit Hunt, A Rebel Bounty, Star Wars (2020) 10, Star Wars (2020) 11, Star Wars: War of the Bounty Hunters, Star Wars: War of the Bounty Hunters Companion, Bounty Hunters 12, Doctor Aphra (2020) 12, Star Wars (2020) 16, Crimson Reign 1, Hidden Empire 1, Dark Droids 1, Star Wars (2020) 37, Star Wars (2020) 38, Star Wars (2020) 39, Return of the Jedi – Lando 1, Tales from the Rancor Pit, Galactic Tales: Valnir and Laizhu, Return of the Jedi – Jabba's Palace 1, The Princess and the Scoundrel, Return of the Jedi – Max Rebo 1, Chapter 1: Stranger in a Strange Land, Chapter 2: The Tribes of Tatooine, Chapter 3: The Streets of Mos Espa, Chapter 4: The Gathering Storm, Life Day 1, Galaxy's Edge 2, Star Wars Adventures: Return to Vader's Castle 4, Star Wars Helmet Collection 2, Star Wars Helmet Collection 19, Star Wars Helmet Collection 27, Star Wars: Scum and Villainy: Case Files on the Galaxy's Most Notorious, Crime and Punishment, Star Wars: The Secrets of the Bounty Hunters, Star Wars: The High Republic: Chronicles of the Jedi, Star Wars: The Rise and Fall of the Galactic Empire, Star Wars Bestiary, Vol. 1: Creatures of the Galaxy",
+    "appearances": [
+      "A New Hope",
+      "Return of the Jedi",
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "600BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.670753"
   },
   {
     "id": 18,
@@ -339,11 +613,11 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Corellia",
+    "planets": "Corellia",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Wedge Antilles.",
+    "description": "A talented young rebel pilot from Corellia, Wedge Antilles survived the attack on the first Death Star to become a respected veteran of Rogue Squadron. He piloted a snowspeeder in the defense of Echo Base on Hoth, and led Red Squadron in the rebel attack on the second Death Star above Endor.",
     "appearances": [
       "A New Hope",
       "The Empire Strikes Back",
@@ -351,7 +625,7 @@
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "21BBY",
       "location": null
     },
     "death": {
@@ -361,7 +635,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.596878"
+    "created_at": "2026-03-24T16:05:42.670753"
   },
   {
     "id": 19,
@@ -375,11 +649,11 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Bestine IV",
+    "planets": "Bestine IV",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Jek Tono Porkins.",
+    "description": "Jek Porkins was a pilot and trader who abandoned his homeworld when the Empire moved in and developed a new military base there. The burly rebel pilot flew an X-wing at the Battle of Yavin under the call sign Red 6. His X-wing developed a mechanical problem early in the battle, leaving him struggling to maneuver. Before Porkins or his astromech could fix the problem, one of the Death Star’s turbolasers zeroed in on the X-wing, incinerating it and killing Porkins instantly.",
     "appearances": [
       "A New Hope"
     ],
@@ -395,7 +669,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.597384"
+    "created_at": "2026-03-24T16:05:42.670753"
   },
   {
     "id": 20,
@@ -408,12 +682,14 @@
       "eye_color": "brown"
     },
     "gender": "male",
-    "species": [],
-    "homeworld": "unknown",
+    "species": [
+      "Yoda's species"
+    ],
+    "planets": "unknown",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Yoda.",
+    "description": "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the Clone Wars, the instruction of Luke Skywalker, and unlocking the path to immortality.",
     "appearances": [
       "The Empire Strikes Back",
       "Return of the Jedi",
@@ -423,7 +699,7 @@
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "896BBY",
       "location": null
     },
     "death": {
@@ -433,7 +709,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.597384"
+    "created_at": "2026-03-24T16:05:42.670753"
   },
   {
     "id": 21,
@@ -447,14 +723,439 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Naboo",
+    "planets": "Naboo",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Palpatine.",
+    "description": "The dark side of the Force is a pathway to many abilities some consider to be unnatural, and Sheev Palpatine is the most infamous follower of its doctrines. Scheming, powerful, and evil to the core, Darth Sidious restored the Sith and destroyed the Jedi Order. Living a double life, he was also Palpatine, a Naboo Senator and phantom menace. He manipulated the political system of the Galactic Republic until he was named Supreme Chancellor -- and eventually Emperor – and ruled the galaxy through fear and tyranny. The galaxy rejoiced when he died at the Battle of Endor, but Sidious had cheated death and patiently plotted a return to power.",
     "appearances": [
       "The Empire Strikes Back",
       "Return of the Jedi",
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "82BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.670753"
+  },
+  {
+    "id": 22,
+    "slug": "boba-fett",
+    "name": "Boba Fett",
+    "physical_traits": {
+      "height_cm": 183.0,
+      "mass_kg": 78.2,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Kamino",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "With his customized Mandalorian armor, deadly weaponry, Boba Fett was once regarded as one of the most fearsome and capable bounty hunters in the galaxy. An unaltered genetic clone of his father, bounty hunter Jango Fett, Boba learned combat and martial skills from a young age. Over the course of his career, which included contracts for the Empire and the criminal underworld, he became a legend. Although Fett seemingly met his demise in the Sarlacc pit on Tatooine after falling into the Great Pit of Carkoon, Boba survived the beast and lived to reclaim his armor, taking over the throne at Jabba's Palace.",
+    "appearances": [
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "31.5BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.670753"
+  },
+  {
+    "id": 23,
+    "slug": "ig-88",
+    "name": "IG-88",
+    "physical_traits": {
+      "height_cm": 200.0,
+      "mass_kg": 140.0,
+      "hair_color": null,
+      "eye_color": "red"
+    },
+    "gender": null,
+    "species": [
+      "Droid"
+    ],
+    "planets": "unknown",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Many people in the galaxy fear droids, what with the memories of the Clone Wars still fresh in their minds. Far more terrifying than battle droids were assassin droids, independently programmed mechanical killers that had no masters. IG-88 is a battered chrome war droid who has become a bounty hunter, and answered Darth Vader's call to capture the Millennium Falcon during the events surrounding the Battle of Hoth.",
+    "appearances": [
+      "The Empire Strikes Back"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "15BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.670753"
+  },
+  {
+    "id": 24,
+    "slug": "bossk",
+    "name": "Bossk",
+    "physical_traits": {
+      "height_cm": 190.0,
+      "mass_kg": 113.0,
+      "hair_color": null,
+      "eye_color": "red"
+    },
+    "gender": "male",
+    "species": [
+      "Trandoshan"
+    ],
+    "planets": "Trandosha",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "One of the most feared bounty hunters of the galaxy, Bossk used his natural Trandoshan hunting instincts to capture his prey. During the Clone Wars, the red-eyed reptilian partnered with Aurra Sing, Castas and young Boba Fett. Bossk didn't care much for vendettas or politics. He was in it to get paid. After a brief stint in a Republic prison, Bossk continued his partnership with Fett, becoming a bodyguard to the teen bounty hunter. Decades later, Bossk answered Darth Vader's call to capture the Millennium Falcon after the Battle of Hoth, an assignment that put him in direct competition with Boba.",
+    "appearances": [
+      "The Empire Strikes Back"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "53BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.671767"
+  },
+  {
+    "id": 25,
+    "slug": "lando-calrissian",
+    "name": "Lando Calrissian",
+    "physical_traits": {
+      "height_cm": 177.0,
+      "mass_kg": 79.0,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Socorro",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Lando Calrissian may have come late to the fight against the Empire, but his role in destroying the second Death Star cemented his reputation as a hero. In his youth, Lando was a sportsman seeking a fortune at the sabacc tables. After he lost his beloved ship to Han Solo, Lando spent years living the high life and pursuing get-rich-quick schemes, with uneven results. He went semi-respectable as the baron administrator of Cloud City, only to be drawn into the fight against the Empire. After a personal tragedy, Lando sought solace in isolation on Pasaana, unaware that the galaxy would need him again.",
+    "appearances": [
+      "The Empire Strikes Back",
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "31BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.671767"
+  },
+  {
+    "id": 26,
+    "slug": "lobot",
+    "name": "Lobot",
+    "physical_traits": {
+      "height_cm": 175.0,
+      "mass_kg": 79.0,
+      "hair_color": null,
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Bespin",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Lobot, also known by the nickname Lo, was a human male from the planet Bespin who, with the help of his cyborg builder AJ^6, was hired by the Galactic Empire to perform battlefield calculations. However, he eventually began working with the smuggler Lando Calrissian aboard the Millennium Falcon, carrying out numerous criminal jobs. During one such job, the theft of the Emperor's personal yacht, Lobot was critically wounded by an Imperial Guardsman. His injuries caused Lobot to lose his mind, and his cybernetic implants took over.",
+    "appearances": [
+      "The Empire Strikes Back"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "37BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.671767"
+  },
+  {
+    "id": 27,
+    "slug": "ackbar",
+    "name": "Ackbar",
+    "physical_traits": {
+      "height_cm": 180.0,
+      "mass_kg": 83.0,
+      "hair_color": null,
+      "eye_color": "orange"
+    },
+    "gender": "male",
+    "species": [
+      "Mon Calamari"
+    ],
+    "planets": "Mon Cala",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "To uphold the legacy of his father, Admiral Gial Ackbar’s son, Aftab, now serves the Resistance as a Y-wing pilot. Beyond his family's close ties to rebel efforts, Aftab’s recruitment was part of a larger effort to bring more Mon Calamari aid to the cause.",
+    "appearances": [
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "41BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.671767"
+  },
+  {
+    "id": 28,
+    "slug": "mon-mothma",
+    "name": "Mon Mothma",
+    "physical_traits": {
+      "height_cm": 150.0,
+      "mass_kg": null,
+      "hair_color": "auburn",
+      "eye_color": "blue"
+    },
+    "gender": "female",
+    "species": [],
+    "planets": "Chandrila",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "From working in secret as one of the founders of the Rebel Alliance to openly leading the New Republic as the first elected Chancellor in two decades, Mon Mothma of Chandrila has built a career out of carefully navigating the dangerous shadows of Coruscant politics in her efforts to restore democracy. Once a leader of the Galactic Senate's Loyalist faction, as a senator Mon Mothma opposed Supreme Chancellor Palpatine's policies during the final days of the Republic. After the rise of the Empire, Mothma continues to serve her constituents on Coruscant while working on her ultimate goal: building an Alliance to Restore the Republic.",
+    "appearances": [
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "48BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.671767"
+  },
+  {
+    "id": 29,
+    "slug": "arvel-crynyd",
+    "name": "Arvel Crynyd",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "unknown",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A seasoned and jaded soldier, Arvel Skeen has spent hard time in tough Imperial prisons. Fueled by revenge, Skeen's interest in rebel activity stems from his desire to exact payback on the Imperial authority that put him in a cell.",
+    "appearances": [
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.671767"
+  },
+  {
+    "id": 30,
+    "slug": "wicket-systri-warrick",
+    "name": "Wicket Systri Warrick",
+    "physical_traits": {
+      "height_cm": 88.0,
+      "mass_kg": 20.0,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [
+      "Ewok"
+    ],
+    "planets": "Endor",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Wicket W. Warrick was the brave young Ewok who willingly joined the Rebellion and aided in the battle against the Empire on the forest moon of Endor. Even before he encountered the Rebels, Wicket had devised methods for defeating the Imperial machines, plans which were implemented after the Ewok befriended Princess Leia and recruited his tribe to the Alliance's cause. During the Battle of Endor, Wicket fought valiantly alongside his new allies.",
+    "appearances": [
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "8BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.671767"
+  },
+  {
+    "id": 31,
+    "slug": "nien-nunb",
+    "name": "Nien Nunb",
+    "physical_traits": {
+      "height_cm": 160.0,
+      "mass_kg": 68.0,
+      "hair_color": null,
+      "eye_color": "black"
+    },
+    "gender": "male",
+    "species": [
+      "Sullustan"
+    ],
+    "planets": "Sullust",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A native of Sullust, Nien Nunb was a smuggler who fought for both the Rebel Alliance and the Resistance during his long career. An expert pilot, he served as Lando Calrissian’s co-pilot aboard the Millennium Falcon during the Battle of Endor, flew an X-wing in the raid on Starkiller Base and survived the First Order’s assault on Crait. He was then killed fighting for freedom at Exegol.",
+    "appearances": [
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.671767"
+  },
+  {
+    "id": 32,
+    "slug": "qui-gon-jinn",
+    "name": "Qui-Gon Jinn",
+    "physical_traits": {
+      "height_cm": 193.0,
+      "mass_kg": 89.0,
+      "hair_color": "brown",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Coruscant",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A venerable if maverick Jedi Master, Qui-Gon Jinn was a student of the living Force. Qui-Gon lived for the moment, espousing a philosophy of feel, don't think -- use your instincts. On Tatooine, Qui-Gon discovered a young slave boy named Anakin Skywalker who was strong in the Force. Sensing the boy's potential, Qui-Gon liberated Anakin from slavery. The Jedi Master presented Anakin to the Jedi Council, but they deemed the boy too old to begin training and dangerously full of fear and anger. They refused to allow Qui-Gon to train Anakin, but rescinded their decision to fulfill Qui-Gon's dying wish.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "92BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.671767"
+  },
+  {
+    "id": 33,
+    "slug": "nute-gunray",
+    "name": "Nute Gunray",
+    "physical_traits": {
+      "height_cm": 191.0,
+      "mass_kg": 90.0,
+      "hair_color": null,
+      "eye_color": "red"
+    },
+    "gender": "male",
+    "species": [
+      "Neimodian"
+    ],
+    "planets": "Cato Neimoidia",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Jedi Knights 5, Brotherhood, Star Wars: Build the Millennium Falcon 31, Star Wars Helmet Collection 8, Star Wars Helmet Collection 22, Star Wars: Build the Millennium Falcon 54, Rise of the Separatists, Ultimate Star Wars, New Edition, The Crisis on Naboo, The Grand Army of the Republic, The Separatists",
+    "appearances": [
       "The Phantom Menace",
       "Attack of the Clones",
       "Revenge of the Sith"
@@ -471,130 +1172,134 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.597384"
+    "created_at": "2026-03-24T16:05:42.671767"
   },
   {
-    "id": 22,
-    "slug": "boba-fett",
-    "name": "Boba Fett",
+    "id": 34,
+    "slug": "finis-valorum",
+    "name": "Finis Valorum",
     "physical_traits": {
-      "height_cm": 183.0,
-      "mass_kg": 78.2,
-      "hair_color": "black",
-      "eye_color": "brown"
-    },
-    "gender": "male",
-    "species": [],
-    "homeworld": "Kamino",
-    "affiliations": [],
-    "masters": [],
-    "apprentices": [],
-    "description": "No description available for Boba Fett.",
-    "appearances": [
-      "The Empire Strikes Back",
-      "Return of the Jedi",
-      "Attack of the Clones"
-    ],
-    "portrayed_by": [],
-    "birth": {
-      "year": null,
-      "location": null
-    },
-    "death": {
-      "year": null,
-      "location": null
-    },
-    "force_sensitive": false,
-    "is_canon": true,
-    "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.597384"
-  },
-  {
-    "id": 25,
-    "slug": "lando-calrissian",
-    "name": "Lando Calrissian",
-    "physical_traits": {
-      "height_cm": 177.0,
-      "mass_kg": 79.0,
-      "hair_color": "black",
-      "eye_color": "brown"
-    },
-    "gender": "male",
-    "species": [],
-    "homeworld": "Socorro",
-    "affiliations": [],
-    "masters": [],
-    "apprentices": [],
-    "description": "No description available for Lando Calrissian.",
-    "appearances": [
-      "The Empire Strikes Back",
-      "Return of the Jedi"
-    ],
-    "portrayed_by": [],
-    "birth": {
-      "year": null,
-      "location": null
-    },
-    "death": {
-      "year": null,
-      "location": null
-    },
-    "force_sensitive": false,
-    "is_canon": true,
-    "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.599496"
-  },
-  {
-    "id": 30,
-    "slug": "wicket-systri-warrick",
-    "name": "Wicket Systri Warrick",
-    "physical_traits": {
-      "height_cm": 88.0,
-      "mass_kg": 20.0,
-      "hair_color": "brown",
-      "eye_color": "brown"
-    },
-    "gender": "male",
-    "species": [],
-    "homeworld": "Endor",
-    "affiliations": [],
-    "masters": [],
-    "apprentices": [],
-    "description": "No description available for Wicket Systri Warrick.",
-    "appearances": [
-      "Return of the Jedi"
-    ],
-    "portrayed_by": [],
-    "birth": {
-      "year": null,
-      "location": null
-    },
-    "death": {
-      "year": null,
-      "location": null
-    },
-    "force_sensitive": false,
-    "is_canon": true,
-    "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.606550"
-  },
-  {
-    "id": 32,
-    "slug": "qui-gon-jinn",
-    "name": "Qui-Gon Jinn",
-    "physical_traits": {
-      "height_cm": 193.0,
-      "mass_kg": 89.0,
-      "hair_color": "brown",
+      "height_cm": 170.0,
+      "mass_kg": null,
+      "hair_color": "blond",
       "eye_color": "blue"
     },
     "gender": "male",
     "species": [],
-    "homeworld": "unknown",
+    "planets": "Coruscant",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Qui-Gon Jinn.",
+    "description": "Star Wars Helmet Collection: Phase I Clone Trooper Weapons & Uniforms: The Supreme Chancellor of the Galactic Republic, Master & Apprentice, Darth Maul – Black, White & Red 3, The Weapon, Star Wars: Jango Fett, Jedi Knights 1, Queen's Peril, Queen's Shadow, Reign of the Empire: The Mask of Fear, Star Wars: Scum and Villainy: Case Files on the Galaxy's Most Notorious, Rise of the Separatists, Star Wars: The Clone Wars: Character Encyclopedia - Join the Battle!, Chancellors, Senators and States Persons of the Republic, Star Wars Helmet Collection: Captain Rex Databank A-Z: Valorum–Vassek, Star Wars: The Rise and Fall of the Galactic Empire",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "91BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.672771"
+  },
+  {
+    "id": 35,
+    "slug": "padmé-amidala",
+    "name": "Padmé Amidala",
+    "physical_traits": {
+      "height_cm": 185.0,
+      "mass_kg": 45.0,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "female",
+    "species": [],
+    "planets": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Padmé Amidala was a courageous, hopeful leader, serving as Queen and then Senator of Naboo -- and was also handy with a blaster. Despite her ideals and all she did for the cause of peace, her secret, forbidden marriage to Jedi Anakin Skywalker would prove to have dire consequences for the galaxy.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "46BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.672771"
+  },
+  {
+    "id": 36,
+    "slug": "jar-jar-binks",
+    "name": "Jar Jar Binks",
+    "physical_traits": {
+      "height_cm": 196.0,
+      "mass_kg": 66.0,
+      "hair_color": null,
+      "eye_color": "orange"
+    },
+    "gender": "male",
+    "species": [
+      "Gungan"
+    ],
+    "planets": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A clumsy, well-meaning Gungan outcast on Naboo, Jar Jar Binks struggled to prove his worth throughout his life. Putting his awkward past behind him, Jar Jar left the swamps of Naboo to enter the even murkier waters of Coruscant politics, becoming a representative for his people in the galactic capital. There, his best intentions and eagerness to serve were exploited by scheming Senators and others in positions of power.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "52BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.672771"
+  },
+  {
+    "id": 37,
+    "slug": "roos-tarpals",
+    "name": "Roos Tarpals",
+    "physical_traits": {
+      "height_cm": 224.0,
+      "mass_kg": 82.0,
+      "hair_color": null,
+      "eye_color": "orange"
+    },
+    "gender": "male",
+    "species": [
+      "Gungan"
+    ],
+    "planets": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "The gravelly-voiced patrol chief of Otoh Gunga, Tarpals has endured many a headache caused by the antics of Jar Jar Binks. Tarpals kept an eye on the bumbling outcast, making sure the youngster didn't re-enter Gungan society. During the Trade Federation occupation of Naboo, Tarpals was part of the Gungan Grand Army that fought against the battle droid invaders. Ironically, Tarpals served under Binks, who had unexpectedly received the rank of general by Boss Nass himself. Tarpals stayed close to Binks, trying to keep his commanding officer out of trouble. By the time of the Clone Wars, Tarpals was promoted to general, and served as leader of the Gungan Grand Army.",
     "appearances": [
       "The Phantom Menace"
     ],
@@ -610,29 +1315,29 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.608071"
+    "created_at": "2026-03-24T16:05:42.672771"
   },
   {
-    "id": 35,
-    "slug": "padmé-amidala",
-    "name": "Padmé Amidala",
+    "id": 38,
+    "slug": "rugor-nass",
+    "name": "Rugor Nass",
     "physical_traits": {
-      "height_cm": 185.0,
-      "mass_kg": 45.0,
-      "hair_color": "brown",
-      "eye_color": "brown"
+      "height_cm": 206.0,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": "orange"
     },
-    "gender": "female",
-    "species": [],
-    "homeworld": "Naboo",
+    "gender": "male",
+    "species": [
+      "Gungan"
+    ],
+    "planets": "Naboo",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Padmé Amidala.",
+    "description": "The stout and stern leader of the Gungans, Boss Nass was a proud keeper of his people's ways. His booming voice issued decrees on behalf of all the Gungans of Otoh Gunga. He kept a tight rein on Gungan affairs, continuing a longstanding custom of isolationism. Though Nass' temper is short, displays of courage and humility can pierce through his preconceptions. When Queen Amidala prostrated herself before the Gungan leader to request his aid in fighting off the Trade Federation invasion, he was impressed. Nass committed the Gungan Grand Army to wage war against invading battle droids.",
     "appearances": [
-      "The Phantom Menace",
-      "Attack of the Clones",
-      "Revenge of the Sith"
+      "The Phantom Menace"
     ],
     "portrayed_by": [],
     "birth": {
@@ -646,7 +1351,473 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.611086"
+    "created_at": "2026-03-24T16:05:42.672771"
+  },
+  {
+    "id": 39,
+    "slug": "ric-olié",
+    "name": "Ric Olié",
+    "physical_traits": {
+      "height_cm": 183.0,
+      "mass_kg": null,
+      "hair_color": "brown",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A veteran of the Naboo Space Fighter Corps, Ric Olie was the leader of Bravo Flight and had the honor of flying Queen Amidala's Royal Starship to and from Naboo. Answerable directly to Captain Panaka, Olie was capable of flying any craft on Naboo. During the Battle of Naboo, Olie's squadron of N-1 starfighters were successful in destroying the Trade Federation's Droid Control Ship with the help of Anakin Skywalker.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.672771"
+  },
+  {
+    "id": 40,
+    "slug": "watto",
+    "name": "Watto",
+    "physical_traits": {
+      "height_cm": 137.0,
+      "mass_kg": null,
+      "hair_color": "black",
+      "eye_color": "yellow"
+    },
+    "gender": "male",
+    "species": [
+      "Toydarian"
+    ],
+    "planets": "Toydaria",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Watto was a Toydarian junk dealer in Mos Espa who bought Shmi Skywalker and her son Anakin from Gardulla the Hutt. An inveterate gambler, he sponsored Anakin in several Podraces, but often bet against his own slave, who was talented but inexperienced. Watto lost Anakin to Qui-Gon Jinn in a wager on the Boonta Eve race. Years later, he sold Shmi to the moisture farmer Cliegg Lars.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.672771"
+  },
+  {
+    "id": 41,
+    "slug": "sebulba",
+    "name": "Sebulba",
+    "physical_traits": {
+      "height_cm": 112.0,
+      "mass_kg": 40.0,
+      "hair_color": null,
+      "eye_color": "orange"
+    },
+    "gender": "male",
+    "species": [
+      "Dug"
+    ],
+    "planets": "Malastare",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A crafty, vicious Dug, Sebulba became one of the Outer Rim's most successful Podracers. Whether roaming the streets of Mos Espa or piloting his massive orange Podracer, Sebulba was aggressive and arrogant. He was not above cheating to win a race, and would even resort to illegal weapons in an attempt to defeat his opponents. Sebulba was Mos Espa's reigning Podrace champion until he entered the Boonta Eve Classic, where he was defeated by young Anakin Skywalker, much to the Dug's frustration.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.672771"
+  },
+  {
+    "id": 42,
+    "slug": "quarsh-panaka",
+    "name": "Quarsh Panaka",
+    "physical_traits": {
+      "height_cm": 183.0,
+      "mass_kg": null,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Queen Amidala's loyal protector during the Trade Federation invasion crisis was Captain Panaka. Panaka was often referred to as the quickest eyes on Naboo for his attention to detail and selfless dedication to the safety of the Queen. Panaka commanded a team of Royal Palace Guards and Security Troopers stationed throughout Theed. During the Trade Federation invasion, Panaka stayed close to the Queen, ensuring her protection from the Neimoidians' plans. His loyalty was such that he would openly question the strategy of Jedi Knights if he thought it would somehow endanger Amidala.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "62BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.672771"
+  },
+  {
+    "id": 43,
+    "slug": "shmi-skywalker",
+    "name": "Shmi Skywalker",
+    "physical_traits": {
+      "height_cm": 163.0,
+      "mass_kg": null,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "female",
+    "species": [],
+    "planets": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "The mother of Anakin Skywalker was also a brave and resilient woman who survived life as a slave to become a Tatooine moisture farmer. Shmi surrendered her son to the Jedi Order, putting him on a path to become one of the greatest Jedi. Her death at the hands of Tusken Raiders became a critical step on Anakin's journey to the dark side.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "72BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.672771"
+  },
+  {
+    "id": 44,
+    "slug": "darth-maul",
+    "name": "Darth Maul",
+    "physical_traits": {
+      "height_cm": 175.0,
+      "mass_kg": 80.0,
+      "hair_color": null,
+      "eye_color": "yellow"
+    },
+    "gender": "male",
+    "species": [
+      "Zabrak"
+    ],
+    "planets": "Dathomir",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Once a deadly and agile Sith Lord trained by the evil Darth Sidious, Maul is a formidable warrior and scheming mastermind, a dark side Force user fueled by his quest for revenge. Known for wielding an intimidating double-bladed lightsaber and fighting with a menacing ferocity, Maul fell in battle against Obi-Wan Kenobi, but the Zabrak from Dathomir proved to be much harder to destroy than originally believed. After the Clone Wars, Maul plans to rebuild his criminal syndicate on the world of Janix.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "54BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.673883"
+  },
+  {
+    "id": 45,
+    "slug": "bib-fortuna",
+    "name": "Bib Fortuna",
+    "physical_traits": {
+      "height_cm": 180.0,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": "pink"
+    },
+    "gender": "male",
+    "species": [
+      "Twi'lek"
+    ],
+    "planets": "Ryloth",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "As the former majordomo to the late Jabba the Hutt, the scheming Bib Fortuna seized power after his master's demise and attempted to control the criminal underworld on Tatooine. For decades, those attempting to do business with Jabba the Hutt first needed to maneuver past the Twi'lek, an ever-present attendant who often hovered near Jabba's ear, offering advice and feeding his boss information. Fortuna followed the rules of protocol in the Hutt's court (such as they were), and spoke only in Huttese, though he understood other tongues.",
+    "appearances": [
+      "Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.673883"
+  },
+  {
+    "id": 46,
+    "slug": "ayla-secura",
+    "name": "Ayla Secura",
+    "physical_traits": {
+      "height_cm": 178.0,
+      "mass_kg": 55.0,
+      "hair_color": null,
+      "eye_color": "hazel"
+    },
+    "gender": "female",
+    "species": [
+      "Twi'lek"
+    ],
+    "planets": "Ryloth",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "No description available for Ayla Secura.",
+    "appearances": [
+      "The Clone Wars",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "48BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.673883"
+  },
+  {
+    "id": 47,
+    "slug": "ratts-tyerel",
+    "name": "Ratts Tyerel",
+    "physical_traits": {
+      "height_cm": 79.0,
+      "mass_kg": 15.0,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Aleena"
+    ],
+    "planets": "Aleen Minor",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Ratts Tyerell was the tiniest of the Podracer pilots in the Boonta Eve Classic, though size matters not in such a competition. The little scrapper piloted a Podracer with immense engines ... too big, it would seem, for the tight confines of the Laguna Caves. On the second lap of the race, Ratts' accelerator jammed, and he couldn't get clearance past the rocky stalactites. The resulting fireball killed the little guy. His family, who had traveled to Mos Espa to witness the race, was reportedly seen grieving shortly thereafter.sss",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.674389"
+  },
+  {
+    "id": 48,
+    "slug": "dud-bolt",
+    "name": "Dud Bolt",
+    "physical_traits": {
+      "height_cm": 94.0,
+      "mass_kg": 45.0,
+      "hair_color": null,
+      "eye_color": "yellow"
+    },
+    "gender": "male",
+    "species": [
+      "Vulptereen"
+    ],
+    "planets": "Vulpter",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Dud Bolt was a Vulptereen pod racer known for participating in the Boonta Eve Classic, preferring to use a Vulptereen 327 pod racer. During a Boonta race that took place shortly before the Battle of Naboo, Bolt competed against a young human named Anakin Skywalker, who would eventually win the Boonta and earn a life free from slavery. Bolt continued racing until the start of the Clone Wars, including participation on a snow-covered planet.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.674389"
+  },
+  {
+    "id": 49,
+    "slug": "gasgano",
+    "name": "Gasgano",
+    "physical_traits": {
+      "height_cm": 122.0,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": "black"
+    },
+    "gender": "male",
+    "species": [
+      "Xexto"
+    ],
+    "planets": "Troiken",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A slight, spindly, six-limbed alien, Gasgano was a thrill-seeker uniquely suited to the extreme sport of Podracing. Gasgano was very competitive, and sought to beat racers Anakin Skywalker and Sebulba during the Boonta Eve Podrace. He piloted a green Ord Pedrovia Podracer in the competition.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.674389"
+  },
+  {
+    "id": 50,
+    "slug": "ben-quadinaros",
+    "name": "Ben Quadinaros",
+    "physical_traits": {
+      "height_cm": 163.0,
+      "mass_kg": 65.0,
+      "hair_color": null,
+      "eye_color": "orange"
+    },
+    "gender": "male",
+    "species": [
+      "Toong"
+    ],
+    "planets": "Tund",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Ben Quadinaros was an inexperienced Toong podracer pilot who raced on the amateur circuits before entering the Boonta Eve Classic podrace on the planet Tatooine in 32 BBY. He rented a BT310 quadra-Podracer for the competition, and prior to the race, he conversed with fellow racer Teemto Pagalies in the hangar of the Mos Espa Grand Arena. On the day of the race, Quadinaros waved to the cheering crowd as his name was announced by the race's commentator, Fodesinbeed Annodue; however, when the Hutt crime lord Jabba Desilijic Tiure signaled for the competition to begin, Quadinaros' vehicle stalled on the starting grid.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.674389"
+  },
+  {
+    "id": 51,
+    "slug": "mace-windu",
+    "name": "Mace Windu",
+    "physical_traits": {
+      "height_cm": 188.0,
+      "mass_kg": 84.0,
+      "hair_color": null,
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Haruun Kal",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A grim Jedi Master with an amethyst-bladed lightsaber, Mace Windu was the champion of the Jedi Order, with little tolerance for the failings of the Senate, the arguments of politicians, or the opinions of rebellious Jedi. As the Clone Wars intensified, Mace sensed the dark side of the Force at work, and knew the Jedi's enemies were plotting to destroy the Order and end its stewardship of the galaxy.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "72BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.674389"
   },
   {
     "id": 52,
@@ -659,12 +1830,52 @@
       "eye_color": "yellow"
     },
     "gender": "male",
-    "species": [],
-    "homeworld": "Cerea",
+    "species": [
+      "Cerean"
+    ],
+    "planets": "Cerea",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Ki-Adi-Mundi.",
+    "description": "Ki-Adi-Mundi was a Cerean alien who sat on the Jedi Council. A humanoid being, Ki's most distinguishing physical feature was an enlarged conical cranium that contained a binary brain. When Jedi Master Qui-Gon Jinn reported a Sith attack during the events surrounding the Battle of Naboo, Ki-Adi-Mundi expressed shock at the notion. Impossible, he remarked, the Sith have been extinct for a millennium. He also failed to see how far Count Dooku had fallen from the Jedi ideals just prior to the Clone Wars, believing that Dooku was incapable of violence or murder.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "92BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.674389"
+  },
+  {
+    "id": 53,
+    "slug": "kit-fisto",
+    "name": "Kit Fisto",
+    "physical_traits": {
+      "height_cm": 196.0,
+      "mass_kg": 87.0,
+      "hair_color": null,
+      "eye_color": "black"
+    },
+    "gender": "male",
+    "species": [
+      "Nautolan"
+    ],
+    "planets": "Glee Anselm",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Kit Fisto is a striking example of an alien Jedi, a Nautolan with large eyes, and a gathered tangle of flexible tentacle-tresses extending from his head. He is at home in the waters of aquatic planets, like his native Glee Anselm. As a Jedi Master, Fisto has an intense focus, particularly in combat. He is also much more laid back and capable of enjoying a hearty chuckle than some of his humorless colleagues",
     "appearances": [
       "The Phantom Menace",
       "Attack of the Clones",
@@ -682,7 +1893,229 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.636535"
+    "created_at": "2026-03-24T16:05:42.674389"
+  },
+  {
+    "id": 54,
+    "slug": "eeth-koth",
+    "name": "Eeth Koth",
+    "physical_traits": {
+      "height_cm": 171.0,
+      "mass_kg": null,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [
+      "Zabrak"
+    ],
+    "planets": "Iridonia",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Eeth Koth was a member of the Jedi High Council in the final years of the order. From within the polished towers of the Jedi Temple on Coruscant, the Council governed the actions of the Jedi Knights. Koth was one of the 12 Jedi present when Qui-Gon Jinn presented Anakin Skywalker as the Chosen One to the Council. A determined warrior with a deep, spiritual connection to the Force, Koth resisted torture at the hands of General Grievous during the Clone Wars, and was even able to secretly communicate his location to the Jedi Council. Koth was saved from Separatist clutches by the daring efforts of his fellow Jedi.",
+    "appearances": [
+      "The Phantom Menace",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.674389"
+  },
+  {
+    "id": 55,
+    "slug": "adi-gallia",
+    "name": "Adi Gallia",
+    "physical_traits": {
+      "height_cm": 184.0,
+      "mass_kg": 50.0,
+      "hair_color": null,
+      "eye_color": "blue"
+    },
+    "gender": "female",
+    "species": [
+      "Tholothian"
+    ],
+    "planets": "Coruscant",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Jedi Master Adi Gallia was a member of the Order's High Council during the Clone Wars. She and the other members of that ruling body would convene in a temple high above the Coruscant landscape, deciding important matters of the Jedi. Stern and focused, she would remark upon the more outrageous tactics carried out by Anakin Skywalker or Obi-Wan Kenobi in the course of the war, but would rarely condemn their effective actions. Though not as brash as Anakin, Adi Gallia was known to be an aggressive warrior who had no problem bringing the fight to the enemy.",
+    "appearances": [
+      "The Phantom Menace",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.675453"
+  },
+  {
+    "id": 56,
+    "slug": "saesee-tiin",
+    "name": "Saesee Tiin",
+    "physical_traits": {
+      "height_cm": 188.0,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": "orange"
+    },
+    "gender": "male",
+    "species": [
+      "Iktotchi"
+    ],
+    "planets": "Iktotch",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "The imposing Saesee Tiin was a member of the Jedi Council during the final years of the Republic. In addition to being a skilled, courageous master of the lightsaber, he was also a capable starfighter pilot. Tiin voyaged to Naboo to attend the funeral of fallen Jedi Qui-Gon Jinn, and the jubilant celebration that marked the liberation of that outlying world. Ten years after this event, Tiin was still an active member of the Jedi order, and a vital battlefield general in the Clone Wars.",
+    "appearances": [
+      "The Phantom Menace",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.675453"
+  },
+  {
+    "id": 57,
+    "slug": "yarael-poof",
+    "name": "Yarael Poof",
+    "physical_traits": {
+      "height_cm": 264.0,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": "yellow"
+    },
+    "gender": "male",
+    "species": [
+      "Quermian"
+    ],
+    "planets": "Quermia",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A gaunt, long-necked Quermian, Yarael Poof had two brains and four arms, which he kept hidden beneath his Jedi robes. Poof was a member of the Jedi Council during the final years of the Republic, and was in the Jedi Council Chamber when Qui-Gon Jinn returned from Tatooine with the extraordinary news that the ancient Sith had returned to challenge the Jedi once more.",
+    "appearances": [
+      "The Phantom Menace"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.675453"
+  },
+  {
+    "id": 58,
+    "slug": "plo-koon",
+    "name": "Plo Koon",
+    "physical_traits": {
+      "height_cm": 188.0,
+      "mass_kg": 80.0,
+      "hair_color": null,
+      "eye_color": "black"
+    },
+    "gender": "male",
+    "species": [
+      "Kel Dor"
+    ],
+    "planets": "Dorin",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A Kel Dor from Dorin, Plo Koon was among the wisest members of the Jedi Order, respected for his level-headed analysis of events and unflappable calm. Deeply concerned for life in all its myriad forms, Plo was especially devoted to protecting the clones under his command. He shared a special bond with Ahsoka Tano, whom he’d brought to the Jedi Order as a toddler. One of many victims of Order 66, Master Plo died at Cato Neimoidia when his wingmen shot down his starfighter.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "22BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.675453"
+  },
+  {
+    "id": 59,
+    "slug": "mas-amedda",
+    "name": "Mas Amedda",
+    "physical_traits": {
+      "height_cm": 196.0,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [
+      "Chagrian"
+    ],
+    "planets": "Champala",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Mas Amedda was the Vice Chair of the Galactic Senate during Chancellor Valorum's term, a position he continued to hold as Chancellor Palpatine transformed the Republic into the Galactic Empire. Amedda's booming voice often called for order when the partisan nature of the Republic's government degenerated into pointless bickering. In an alien gesture of authority, he would often punctuate such calls with a flicker of his long, forked tongue.",
+    "appearances": [
+      "The Phantom Menace",
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.675968"
   },
   {
     "id": 60,
@@ -696,11 +2129,46 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Naboo",
+    "planets": "Naboo",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Gregar Typho.",
+    "description": "Gregar Typho succeeded Captain Panaka as head of Padmé Amidala’s security detail, protecting her as Naboo’s queen and then as its Senator. During the Separatist Crisis, Typho endorsed the plan for Padmé to evade assassins by secretly returning to Naboo with Anakin Skywalker. He loyally defended the Senator against a host of enemies in the Clone Wars.",
+    "appearances": [
+      "Revenge of the Sith",
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.675968"
+  },
+  {
+    "id": 61,
+    "slug": "cordé",
+    "name": "Cordé",
+    "physical_traits": {
+      "height_cm": 157.0,
+      "mass_kg": null,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "female",
+    "species": [],
+    "planets": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Cordé, formerly known as Cordyn, was a human handmaiden who served Senator Padmé Amidala in the days leading up to the Clone Wars. She was acting as a decoy when she was killed in an attempt on Amidala's life by the Clawdite bounty hunter Zam Wesell.",
     "appearances": [
       "Attack of the Clones"
     ],
@@ -716,7 +2184,78 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.648029"
+    "created_at": "2026-03-24T16:05:42.675968"
+  },
+  {
+    "id": 62,
+    "slug": "cliegg-lars",
+    "name": "Cliegg Lars",
+    "physical_traits": {
+      "height_cm": 183.0,
+      "mass_kg": null,
+      "hair_color": "brown",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [],
+    "planets": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Cliegg Lars was a modest, good-hearted moisture farmer who lived on the Lars homestead, not far from the township of Anchorhead. During a trip to the bustling spaceport of Mos Espa, Cliegg fell in love with Shmi Skywalker, a slave owned by Toydarian junk trader Watto. Cliegg purchased Shmi's freedom and, soon after, made her his bride. They lived a quiet existence for years on the homestead, surviving against the harsh desert elements. With Owen, Cliegg's son from a previous union, and Owen's girlfriend Beru Whitesun, the Lars homestead was a tiny island of familial warmth amidst the endless desert wastes. Until tragedy struck...",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "82BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.675968"
+  },
+  {
+    "id": 63,
+    "slug": "poggle-the-lesser",
+    "name": "Poggle the Lesser",
+    "physical_traits": {
+      "height_cm": 183.0,
+      "mass_kg": 80.0,
+      "hair_color": null,
+      "eye_color": "yellow"
+    },
+    "gender": "male",
+    "species": [
+      "Geonosian"
+    ],
+    "planets": "Geonosis",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Poggle the Lesser was the leader of the insect-like Geonosians throughout the era of the Clone Wars. Due to his control of the Geonosian battle droid factories, he was a powerful figure within the Confederacy of Independent Systems and commanded the droid armies that fought against the Republic in two battles for control of Geonosis. At the end of the war, Poggle lost his life to Darth Vader.",
+    "appearances": [
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.676483"
   },
   {
     "id": 64,
@@ -729,19 +2268,21 @@
       "eye_color": "blue"
     },
     "gender": "female",
-    "species": [],
-    "homeworld": "Mirial",
+    "species": [
+      "Mirialan"
+    ],
+    "planets": "Mirial",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Luminara Unduli.",
+    "description": "A green-skinned Mirialan, Luminara Unduli served the Jedi Order during the final years of the Galactic Republic, and trained the capable Padawan Barriss Offee. A no-nonsense Jedi Master, Luminara fought in Clone Wars battles such as Geonosis and Kashyyyk, and was thought to have perished during Order 66. In reality, she’d been taken into Imperial custody and executed, with holographic transmissions of her captivity used as bait to capture fugitive Jedi.",
     "appearances": [
       "Attack of the Clones",
       "Revenge of the Sith"
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "58BBY",
       "location": null
     },
     "death": {
@@ -751,7 +2292,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.652339"
+    "created_at": "2026-03-24T16:05:42.676483"
   },
   {
     "id": 65,
@@ -764,12 +2305,50 @@
       "eye_color": "blue"
     },
     "gender": "female",
-    "species": [],
-    "homeworld": "Mirial",
+    "species": [
+      "Mirialan"
+    ],
+    "planets": "Mirial",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Barriss Offee.",
+    "description": "In the time of the Republic, Barriss Offee served as the Padawan to Luminara Unduli, with a preference for studying ancient Jedi texts in the Temple over serving on the frontlines of war. But her mindset, while noble, led her down a dark path. Even before the Jedi fell, Barriss accused the Order of losing its way and was imprisoned for life for crimes against the Republic for her role in the bombing of the Jedi Temple on Coruscant. With the dawn of the Empire, Barriss is freed for a new purpose: to serve the Inquisitorius.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "40BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.676483"
+  },
+  {
+    "id": 66,
+    "slug": "dormé",
+    "name": "Dormé",
+    "physical_traits": {
+      "height_cm": 165.0,
+      "mass_kg": null,
+      "hair_color": "brown",
+      "eye_color": "brown"
+    },
+    "gender": "female",
+    "species": [
+      "Human"
+    ],
+    "planets": "Naboo",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Despite no longer being Naboo’s queen, Padmé Amidala retained some royal perks as senator. Among them were her loyal handmaidens – a name that did little justice to the women’s training as bodyguards. Padmé’s most devoted aide, Dormé, advised the senator on Coruscant and helped look after Naboo’s affairs when Padmé retreated to her homeworld with Anakin Skywalker.",
     "appearances": [
       "Attack of the Clones"
     ],
@@ -785,7 +2364,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.652339"
+    "created_at": "2026-03-24T16:05:42.676483"
   },
   {
     "id": 67,
@@ -798,19 +2377,21 @@
       "eye_color": "brown"
     },
     "gender": "male",
-    "species": [],
-    "homeworld": "Serenno",
+    "species": [
+      "Human"
+    ],
+    "planets": "Serenno",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Dooku.",
+    "description": "Count Dooku was a menacing Sith Lord and central figure in the Clone Wars. Once a Jedi -- trained by Yoda -- he became disillusioned with the Jedi Order and thirsted for greater power. Dooku voluntarily left the light side behind and became Darth Sidious’ dark side disciple, taking the secret name Darth Tyranus and leading the Separatist army. Dooku advanced Sidious’s secret plot to take over the galaxy, but forgot that betrayal is the nature of the Sith.",
     "appearances": [
       "Attack of the Clones",
       "Revenge of the Sith"
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "102BBY",
       "location": null
     },
     "death": {
@@ -820,7 +2401,47 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.654346"
+    "created_at": "2026-03-24T16:05:42.676483"
+  },
+  {
+    "id": 68,
+    "slug": "bail-prestor-organa",
+    "name": "Bail Prestor Organa",
+    "physical_traits": {
+      "height_cm": 191.0,
+      "mass_kg": null,
+      "hair_color": "black",
+      "eye_color": "brown"
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": "Alderaan",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A member of Alderaan's royal family and the planet's representative to the Republic Senate since the time of the Clone Wars, Bail Organa earned respect on Coruscant for his honesty and his commitment to justice. Prior to the fall of the Republic, Bail served alongside Senator Padmé Amidala as a member of Chancellor Palpatine's Loyalist Committee. The two became close friends, and recruited like-minded allies to prevent Palpatine's alarming grabs for power. At the end of the war, Bail Organa adopted Padmé's daughter Leia and raised her as an Alderaanian princess. While representing Alderaan in the Imperial Senate, he continued to work secretly with allies such as Mon Mothma and Ahsoka Tano to assist rebel cells scattered across the galaxy, working towards the day that a unified Rebellion could emerge.",
+    "appearances": [
+      "Attack of the Clones",
+      "Revenge of the Sith",
+      "Obin-Wan Kenobi",
+      "Rogue One",
+      "Andor"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": "67BBY",
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.676483"
   },
   {
     "id": 69,
@@ -834,17 +2455,17 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Concord Dawn",
+    "planets": "Concord Dawn",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Jango Fett.",
+    "description": "In the final years of the Republic, Jango Fett was regarded as the best bounty hunter in the galaxy. A proficient marksman and unarmed combatant, Fett was covered in a sleek armored suit that concealed his scarred face. His combat gear featured an arsenal of weaponry, including retractable wrist blades, a snare, dual blaster pistols and other more exotic tools of the trade. In combat, Jango used his harnessed jetpack to gain the advantage of speed and height over his enemies. The backpack also carried a nasty surprise -- an explosive rocket could be launched from it. For interstellar travel, Jango traveled aboard his well-worn starship, Slave I.",
     "appearances": [
       "Attack of the Clones"
     ],
     "portrayed_by": [],
     "birth": {
-      "year": null,
+      "year": "66BBY",
       "location": null
     },
     "death": {
@@ -854,7 +2475,7 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.655856"
+    "created_at": "2026-03-24T16:05:42.676483"
   },
   {
     "id": 70,
@@ -867,12 +2488,14 @@
       "eye_color": "yellow"
     },
     "gender": "female",
-    "species": [],
-    "homeworld": "Zolan",
+    "species": [
+      "Clawdite"
+    ],
+    "planets": "Zolan",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Zam Wesell.",
+    "description": "A shape-shifting Clawdite assassin from Zolan, Zam Wesell could assume any humanoid form. Jango Fett hired her to kill Padmé Amidala on Coruscant, but the Naboo Senator eluded an explosive that destroyed her starship, then escaped poisonous kouhuns let loose in her apartment. Anakin Skywalker and Obi-Wan Kenobi pursued Zam across Coruscant, catching her in the Outlander Club. Before she could talk, Jango shot her dead with a Kaminoan saberdart.",
     "appearances": [
       "Attack of the Clones"
     ],
@@ -888,25 +2511,318 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.655856"
+    "created_at": "2026-03-24T16:05:42.676483"
   },
   {
-    "id": 80,
-    "slug": "tarfful",
-    "name": "Tarfful",
+    "id": 71,
+    "slug": "dexter-jettster",
+    "name": "Dexter Jettster",
     "physical_traits": {
-      "height_cm": 234.0,
-      "mass_kg": 136.0,
-      "hair_color": "brown",
-      "eye_color": "blue"
+      "height_cm": 198.0,
+      "mass_kg": 102.0,
+      "hair_color": null,
+      "eye_color": "yellow"
     },
     "gender": "male",
-    "species": [],
-    "homeworld": "Kashyyyk",
+    "species": [
+      "Besalisk"
+    ],
+    "planets": "Ojom",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Tarfful.",
+    "description": "Obi-Wan Kenobi counted on Dexter Jettster, an old friend, to identify a poison dart, and Jettster didn't fail him. The cook correctly recognized the small-tined projectile as a Kamino saberdart. Few have ever heard of the planet Kamino, but Dex not only informed Obi-Wan as to its location (12 parsecs south of the Rishi Maze), but also its inhabitants. Dex warned that the native Kaminoans -- cloners of some repute -- keep to themselves, but are welcoming to those with the credits to spare.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 72,
+    "slug": "lama-su",
+    "name": "Lama Su",
+    "physical_traits": {
+      "height_cm": 229.0,
+      "mass_kg": 88.0,
+      "hair_color": null,
+      "eye_color": "black"
+    },
+    "gender": "male",
+    "species": [
+      "Kaminoan"
+    ],
+    "planets": "Kamino",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Once the lanky Prime Minister of the remote world of Kamino, Lama Su oversaw the creation of the Galactic Republic's first clone armies. That effort gave his storm-swept homeworld influence in the Republic, but also made it a target of the Separatist military. At the dawn of the new Empire, Lama Su remained in power until the Imperial bombardment destroyed Tipoca City. Imprisoned at Mount Tantiss, Lama Su continued to cooperate with his Imperial captors, exposing Omega as the key to controlling the scientist Nala Se.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 73,
+    "slug": "taun-we",
+    "name": "Taun We",
+    "physical_traits": {
+      "height_cm": 213.0,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": "black"
+    },
+    "gender": "female",
+    "species": [
+      "Kaminoan"
+    ],
+    "planets": "Kamino",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A beautiful sylph-like Kaminoan, Taun We is the administrative aide to the Prime Minister of Kamino, Lama Su. When Obi-Wan Kenobi arrived at the rain-swept platforms of Tipoca City, he was greeted by the gentle Taun We. Taun We explained that the Kaminoans had long been expecting the arrival of a Jedi envoy, since a Jedi representative, Master Sifo-Dyas, commissioned a clone army a decade earlier. Kenobi bluffed his way into the heart of the cloning operation, and had the naive Taun We introduce him to the original source of the clones, Jango Fett.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 74,
+    "slug": "jocasta-nu",
+    "name": "Jocasta Nu",
+    "physical_traits": {
+      "height_cm": 167.0,
+      "mass_kg": null,
+      "hair_color": "white",
+      "eye_color": "blue"
+    },
+    "gender": "female",
+    "species": [
+      "Human"
+    ],
+    "planets": "Coruscant",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "The Jedi Archives are the galaxy's greatest repository of knowledge, and Madame Jocasta Nu is their Chief Librarian. She helps other Jedi find information in the Archive using its data terminals, and she controls access to the restricted contents of its Holocron Vault. Jocasta Nu can sometimes be too confident in thinking that the Archives contain the correct answers to all questions.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 75,
+    "slug": "r4-p17",
+    "name": "R4-P17",
+    "physical_traits": {
+      "height_cm": 96.0,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": "red, blue"
+    },
+    "gender": "female",
+    "species": [
+      "Droid"
+    ],
+    "planets": "unknown",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "R4-P17 was an astromech droid assigned to Obi-Wan Kenobi, and assisted the Jedi Master on many missions, from Kamino and Geonosis to Teth and Tatooine. She was destroyed during the Battle of Coruscant when buzz droids swarmed Obi-Wan’s fighter, ripping the faithful droid’s dome from her metal body.",
+    "appearances": [
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 76,
+    "slug": "wat-tambor",
+    "name": "Wat Tambor",
+    "physical_traits": {
+      "height_cm": 193.0,
+      "mass_kg": 48.0,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Skakoan"
+    ],
+    "planets": "Skako",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "The foreman of the Techno Union, Wat Tambor was one of the original and most fervent Separatist leaders, pledging his loyalty and his battle droid armies to Count Dooku at a pivotal meeting on Geonosis. Later in the war, Tambor was appointed emir of Ryloth. His occupation was a cruel one, in which Tambor stripped the Twi'leks of whatever valuables he could find, then bombed their villages.",
+    "appearances": [
+      "Attack of the Clones"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 77,
+    "slug": "san-hill",
+    "name": "San Hill",
+    "physical_traits": {
+      "height_cm": 191.0,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": "gold"
+    },
+    "gender": "male",
+    "species": [
+      "Muun"
+    ],
+    "planets": "Muunilinst",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "San Hill was a male Muun who was the chairman of the InterGalactic Banking Clan at the onset of the Clone Wars and signed Count Dooku’s treaty. He served as the IG representative on the Separatist Council until he was murdered unceremoniously by the Sith Lord Darth Vader shortly after the end of the war.",
+    "appearances": [
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 78,
+    "slug": "shaak-ti",
+    "name": "Shaak Ti",
+    "physical_traits": {
+      "height_cm": 178.0,
+      "mass_kg": 57.0,
+      "hair_color": null,
+      "eye_color": "black"
+    },
+    "gender": "female",
+    "species": [
+      "Togruta"
+    ],
+    "planets": "Shili",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A wise and patient Jedi Master, the Togruta Shaak Ti fought at the Battle of Geonosis, and supervised the training of clone cadets on Kamino. There, she struggled to balance the necessity of producing capable troopers with compassion for the clones as living beings. Ti helped defend Kamino against Separatist attack, balancing assignments in the field with her duties on the Jedi Council.",
+    "appearances": [
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 79,
+    "slug": "grievous",
+    "name": "Grievous",
+    "physical_traits": {
+      "height_cm": 216.0,
+      "mass_kg": 159.0,
+      "hair_color": null,
+      "eye_color": "green, yellow"
+    },
+    "gender": "male",
+    "species": [
+      "Kaleesh"
+    ],
+    "planets": "Kalee",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "General Grievous was a brilliant Separatist military strategist and a feared Jedi hunter, known for his ruthlessness and hacking cough. His body itself was a weapon, allowing him lightning quick strikes and devastating blows. But he was also quick to run from a fight, a tactic that worked until one final meeting with Obi-Wan Kenobi.",
     "appearances": [
       "Revenge of the Sith"
     ],
@@ -922,7 +2838,43 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.669764"
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 80,
+    "slug": "tarfful",
+    "name": "Tarfful",
+    "physical_traits": {
+      "height_cm": 234.0,
+      "mass_kg": 136.0,
+      "hair_color": "brown",
+      "eye_color": "blue"
+    },
+    "gender": "male",
+    "species": [
+      "Wookie"
+    ],
+    "planets": "Kashyyyk",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A massive Wookiee general, Tarfful helped defend his native Kashyyyk during the Clone Wars. A distress signal brought Tarfful and his most trusted warriors rushing to Chewbacca's help against the hated Trandoshans on the hunting grounds of Wasskah. Later, Tarfful and Chewbacca fought side by side with General Yoda on the battlegrounds of Kashyyyk.",
+    "appearances": [
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
   },
   {
     "id": 81,
@@ -936,11 +2888,11 @@
     },
     "gender": "male",
     "species": [],
-    "homeworld": "Alderaan",
+    "planets": "Alderaan",
     "affiliations": [],
     "masters": [],
     "apprentices": [],
-    "description": "No description available for Raymus Antilles.",
+    "description": "A level-headed ship officer schooled in diplomacy, and a capable pilot entrusted to ferry about the royal family of Alderaan, Captain Antilles served in Bail Organa's command staff. He was part of the bridge crew of Organa's diplomatic cruiser, a role he would continue during the time Princess Leia served as Senator of Alderaan.",
     "appearances": [
       "A New Hope",
       "Revenge of the Sith"
@@ -957,6 +2909,1517 @@
     "force_sensitive": false,
     "is_canon": true,
     "avatar_url": "",
-    "created_at": "2026-03-12T00:04:06.669764"
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 82,
+    "slug": "sly-moore",
+    "name": "Sly Moore",
+    "physical_traits": {
+      "height_cm": 178.0,
+      "mass_kg": 48.0,
+      "hair_color": null,
+      "eye_color": "white"
+    },
+    "gender": "female",
+    "species": [],
+    "planets": "Umbara",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A pale Umbaran, Sly Moore served as Palpatine’s senior administrative aide during his chancellorship, attending to countless affairs of state. Moore’s enigmatic silence made her the object of considerable curiosity on Coruscant, with rumors abounding about her past and mysterious abilities she supposedly possessed.",
+    "appearances": [
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 83,
+    "slug": "tion-medon",
+    "name": "Tion Medon",
+    "physical_traits": {
+      "height_cm": 206.0,
+      "mass_kg": 80.0,
+      "hair_color": null,
+      "eye_color": "black"
+    },
+    "gender": "male",
+    "species": [
+      "Pau'an"
+    ],
+    "planets": "Utapau",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Greeting Obi-Wan Kenobi during his search for General Grievous on windswept Utapau was Port Administrator Tion Medon. The tall, gaunt Utapaun initially feigned ignorance about Grievous' whereabouts, but then whispered a warning to Kenobi. Grievous was indeed on the planet, hiding on the tenth level of the sinkhole city with an army of thousands of battle droids.",
+    "appearances": [
+      "Revenge of the Sith"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-03-24T16:05:42.677515"
+  },
+  {
+    "id": 84,
+    "slug": "din-djarin",
+    "name": "Din Djarin",
+    "physical_traits": {
+      "height_cm": 1.8,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": "Aq Vetina",
+    "affiliations": [
+      "Gremios de cazarrecompensas"
+    ],
+    "masters": [
+      "Mandalorianos"
+    ],
+    "apprentices": [],
+    "description": "The Mandalorian, known to some as Din Djarin, is a battle-worn bounty hunter, making his way through a dangerous galaxy in an uncertain age. Reunited with Grogu, Djarin undertakes a new quest to reclaim a place in Mandalorian society as his scattered people unite to take a stand against the Imperial remnant.",
+    "appearances": [
+      "Star Wars: The Book of Boba Fett",
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:55:07.583442"
+  },
+  {
+    "id": 85,
+    "slug": "grogu",
+    "name": "Grogu",
+    "physical_traits": {
+      "height_cm": 0.34,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [],
+    "planets": null,
+    "affiliations": [
+      "Orden Jedi",
+      "Mandalorianos"
+    ],
+    "masters": [
+      "Luke Skywalker"
+    ],
+    "apprentices": [],
+    "description": "A mysterious child pursued by bounty hunters on behalf of Imperial interests, the foundling Grogu found protection with the Mandalorian Din Djarin. Through their adventures and journeys through the galaxy, young Grogu is honing remarkable abilities. Although he previously trained as a Jedi, Grogu has chosen to return to Din's side and continues to share his adventures as they take a stand against the Imperial remnant.",
+    "appearances": [
+      "Star Wars: The Mandalorian",
+      "Star Wars: The Book of Boba Fett"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:55:16.396452"
+  },
+  {
+    "id": 86,
+    "slug": "greef-karga",
+    "name": "Greef Karga",
+    "physical_traits": {
+      "height_cm": 1.88,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": null,
+    "affiliations": [
+      "Gremios de cazarrecompensas"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "Once an expeditor for the Bounty Hunters Guild, Greef Karga ran the trade on Nevarro, a middle-man, a connector between clients and bounty hunters. Now Magistrate of Nevarro, Greef is cleaning up the rough-and-tumble world with the help of Marshal Cara Dune.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:55:36.811257"
+  },
+  {
+    "id": 87,
+    "slug": "the-client",
+    "name": "The Client",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": null,
+    "species": [],
+    "planets": null,
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Bounty hunting is a complicated profession, but in exchange for efficiency and anonymity, a mysterious man known only as the Client is prepared to pay handsome rewards in currency befitting the particular mercenary. For example, to secure the services of a Mandalorian for a rare and valuable quarry, he will exchange a cache of beskar steel bearing the signet of the Galactic Empire.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:55:47.015445"
+  },
+  {
+    "id": 88,
+    "slug": "moff-gideon",
+    "name": "Moff Gideon",
+    "physical_traits": {
+      "height_cm": 1.83,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": null,
+    "affiliations": [
+      "Imperio Galáctico",
+      "Consejo en la sombra"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "TImperial Moff Gideon is fiercely determined to capture the Child, known as Grogu. Clever and formidable, Gideon values power and knowledge. He wields the ancient Darksaber, an artifact of great import to Mandalorians.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:55:58.549353"
+  },
+  {
+    "id": 89,
+    "slug": "the-armorer",
+    "name": "The Armorer",
+    "physical_traits": {
+      "height_cm": 1.7,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "female",
+    "species": [],
+    "planets": "Mandalore",
+    "affiliations": [
+      "Mandalorianos",
+      "La Tribu"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "Weapons are part of the Mandalorian religion, and the Armorer serves as the high priestess of these ways, expertly crafting impenetrable beskar armor from her seat at the mouth of the cryo-forge. Her armor a mix of ornate and ceremonial garb, exotic furs, and reinforced gauntlets to protect her flesh from the searing heat.",
+    "appearances": [
+      "Star Wars: The Book of Boba Fett",
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:56:09.198514"
+  },
+  {
+    "id": 90,
+    "slug": "paz-vizsla",
+    "name": "Paz Vizsla",
+    "physical_traits": {
+      "height_cm": 1.91,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": "Mandalore",
+    "affiliations": [
+      "Mandalorianos",
+      "La Tribu"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "Before the Great Purge, a Mandalorian dressed in the fashion of the heavy infantry would have held a special place among the warriors, his solid frame made to withstand the weight of his specialized weaponry, including shouldering a jetpack. After the fall of the Empire, at least one such fighter grudgingly makes his home on Nevarro, forced into hiding with his kin and living in the shadows.",
+    "appearances": [
+      "Star Wars: The Mandalorian",
+      "Star Wars: The Book of Boba Fett"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:56:19.995362"
+  },
+  {
+    "id": 91,
+    "slug": "bo-katan-kryze",
+    "name": "Bo-Katan Kryze",
+    "physical_traits": {
+      "height_cm": 1.8,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "female",
+    "species": [
+      "Human"
+    ],
+    "planets": "Mandalore",
+    "affiliations": [
+      "Mandalorianos",
+      "Death Watch",
+      "Resistencia Mandaloriana",
+      "Unidad de Bo-Katan Kryze",
+      "Hijos de la Guardia"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "A gifted warrior, Bo-Katan Kryze is a legendary Mandalorian. She has been fighting for the future of Mandalore since the Clone Wars, wearing armor that has been in her family for generations. The last of her line, she once wielded the Darksaber as the leader of the Mandalorian resistance in the age of rebellion. At the dawn of the New Republic, she led a team of Clan Kryze Mandalorians striking back at the Imperial remnant.Though her mission to retake Mandalore has faltered with the loss of the Darksaber, Bo-Katan finds newfound purpose and focus with the help of the Mandalorian Din Djarin, who won the blade in battle with Moff Gideon.",
+    "appearances": [
+      "Star Wars: Rebels",
+      "Star Wars: The Clone Wars",
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:56:31.293933"
+  },
+  {
+    "id": 92,
+    "slug": "ahsoka-tano",
+    "name": "Ahsoka Tano",
+    "physical_traits": {
+      "height_cm": 1.79,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "famale",
+    "species": [
+      "Togruta"
+    ],
+    "planets": "Coruscant",
+    "affiliations": [
+      "Orden Jedi",
+      "Rabel Alliance"
+    ],
+    "masters": [
+      "Anakin Skywalker"
+    ],
+    "apprentices": [],
+    "description": "Former Jedi Knight Ahsoka Tano once served as the Padawan learner to the Jedi Anakin Skywalker during the Clone Wars. A respected leader and warrior attuned to the light side of the Force, Ahsoka grew into a formidable fighter before the Empire’s reign changed the course of galactic history. Although she walked away from the Jedi Order, she continued to stand up for those fighting for peace and justice in the galaxy long after the fall of the Republic.",
+    "appearances": [
+      "Star Wars: Rebels",
+      "Star Wars: The Book of Boba Fett",
+      "Star Wars: The Clone Wars",
+      "Star Wars: The Mandalorian",
+      "Star Wars: Tales of the Jedi",
+      "Star Wars: Ahsoka"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:56:42.837071"
+  },
+  {
+    "id": 93,
+    "slug": "peli-motto",
+    "name": "Peli Motto",
+    "physical_traits": {
+      "height_cm": 1.55,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "female",
+    "species": [
+      "Human"
+    ],
+    "planets": "Tatooine",
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "The scrappy proprietor of Hangar 3-5 in the Mos Eisley Spaceport, Peli Motto makes a living refueling and repairing battered ships. With the help of a team of hyperactive pit droids and other mechanical assistants, she can make quick work of the worst carbon scoring, but she's willing to tackle the job herself for an additional fee",
+    "appearances": [
+      "Star Wars: The Book of Boba Fett",
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:56:54.108758"
+  },
+  {
+    "id": 94,
+    "slug": "cara-dune",
+    "name": "Cara Dune",
+    "physical_traits": {
+      "height_cm": 1.73,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "female",
+    "species": [
+      "Human"
+    ],
+    "planets": "Alderaan",
+    "affiliations": [
+      "New Republic"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "A veteran of the Galactic Civil War who fought under the banner of the Rebellion, Cara Dune is a seasoned warrior who hails from Alderaan. After the fall of the Empire, she reinvented herself first as a mercenary, and most recently as the Marshal of Nevarro.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:57:04.743488"
+  },
+  {
+    "id": 95,
+    "slug": "fennec-shand",
+    "name": "Fennec Shand",
+    "physical_traits": {
+      "height_cm": 1.63,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "famale",
+    "species": [
+      "Human"
+    ],
+    "planets": "Borde Medio",
+    "affiliations": [
+      "Sindicatos del crimen",
+      "Clan Hutt"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "An assassin and elite mercenary, Fennec Shand has worked for all the top syndicates. Clever, capable, and cunning, she is not to be underestimated and is full of surprises.",
+    "appearances": [
+      "Star Wars: The Book of Boba Fett",
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-04T22:57:27.927947"
+  },
+  {
+    "id": 96,
+    "slug": "kuiil",
+    "name": "Kuiil",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Ugnaught"
+    ],
+    "planets": null,
+    "affiliations": [
+      "Galactic Empire",
+      "Granja de Humedad"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "A vapor farmer on Arvala-7, Kuiil came to seek peace in an out of the way world, which is now being trespassed upon by criminals and mercenaries. He has worked a lifetime to be free of servitude, and offers valuable skills for those willing to meet his price.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:03:43.991094"
+  },
+  {
+    "id": 97,
+    "slug": "ig-11",
+    "name": "IG-11",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": null,
+    "species": [],
+    "planets": null,
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "One of a series of dangerous assassin droids largely outlawed in the galaxy, IG-11 is a hired gun programmed to follow Bounty Hunters Guild protocols to the letter. Reliable and durable, IG-11's thin body is built on an armored substrate that can withstand repeated assaults. It is against his programming to be captured, and he has built-in last-ditch fail-safes to prevent that from ever happening.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:03:54.544497"
+  },
+  {
+    "id": 98,
+    "slug": "cobb-vanth",
+    "name": "Cobb Vanth",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": "Tatooine",
+    "affiliations": [
+      "Mos Pelgo"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "The marshal of Mos Pelgo, a small town on Tatooine, Cobb Vanth has earned the trust of the townsfolk as a capable peacekeeper and leader. Vanth, at one time, was custodian of Boba Fett's Mandalorian armor, which he bought off of Jawa traders.",
+    "appearances": [
+      "Star Wars: The Mandalorian",
+      "Star Wars: The Book of Boba Fett"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:04:42.544497"
+  },
+  {
+    "id": 99,
+    "slug": "at-st-walker",
+    "name": "AT-ST Walker",
+    "physical_traits": {
+      "height_cm": 9.4,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [],
+    "planets": [],
+    "affiliations": [
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "While not as imposing as its larger AT-AT walker cousin, the AT-ST nonetheless served as a significant addition to the Imperial side of battlefields in the Galactic Civil War. The two-man craft is lightly armed with chin-mounted laser cannons, and side-mounted weapon pods. The two-legged transport, dubbed the scout walker by many, serves as a reconnaisance and patrol vehicle, often flanking approaching AT-ATs and mopping up infantry that sneaks past the larger walkers. The Imperials used AT-STs in both the Battle of Hoth and the Battle of Endor.",
+    "appearances": [
+      "Star Wars: The Mandalorian",
+      "Star Wars: The Empire Strikes Back",
+      "Star Wars: Return of the Jedi"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:04:32.544497"
+  },
+  {
+    "id": 100,
+    "slug": "blurrg",
+    "name": "Blurrg",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [],
+    "planets": [],
+    "affiliations": [
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "Blurrgs are two-legged beasts of burden found on a number of worlds in the galaxy. Stoic and strong, they are used for everything from agricultural labor to war, foraging lazily in paddocks or carrying Twi'lek guerrillas and clone troopers into battle. Although they appear harmless and docile, their toothy mouths can betray a fierce demeanor; females are known to devour the males of the species during mating season.",
+    "appearances": [
+      "Star Wars: The Mandalorian",
+      "Star Wars: Rebels",
+      "Star Wars: The Clone Wars"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:02:32.544497"
+  },
+  {
+    "id": 101,
+    "slug": "capitan-lang",
+    "name": "Capitan Lang",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": [
+      "Corvus"
+    ],
+    "affiliations": [
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "A mercenary with loyalty bought by the wealthy Magistrate Morgan Elsbeth, Lang is no ordinary hired gun. He serves as the Magistrate's Captain of the Guard, commanding the forces that defend her walled city.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:01:23.544497"
+  },
+  {
+    "id": 102,
+    "slug": "carson-teva",
+    "name": "Carson Teva",
+    "physical_traits": {
+      "height_cm": 1.75,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": [
+      "Corvus"
+    ],
+    "affiliations": [
+      "The New Republic",
+      "Rabel Alliance"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "Based out of an outpost on Adelphi, Carson Teva leads New Republic reconnaissance in stretches of the Outer Rim, including patrols over distant worlds like Tatooine in an effort to maintain order. He is one of the few who does not underestimate the lingering Imperial presence in the galactic hinterlands.",
+    "appearances": [
+      "Star Wars: The Mandalorian",
+      "Star Wars: Ahsoka",
+      "Star Wars: The Book of Boba Fett"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:06:12.544497"
+  },
+  {
+    "id": 103,
+    "slug": "burg",
+    "name": "Burg",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Devaronian"
+    ],
+    "planets": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A hulking Devaronian, Burg is the muscle of a gang of criminals looking to spring a convict from a prison ship with the help of the Mandalorian.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:01:59.544497"
+  },
+  {
+    "id": 104,
+    "slug": "dewback",
+    "name": "Dewback",
+    "physical_traits": {
+      "height_cm": 2,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Reptile"
+    ],
+    "planets": [
+      "Tatooine"
+    ],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Rugged reptiles with thick hides, dewbacks are plodding but reliable mounts. When prodded by their riders, they are capable of brief bursts of surprising speed.",
+    "appearances": [
+      "Star Wars: The Mandalorian",
+      "Star Wars: A New Hope",
+      "Star Wars: The Phantom Menace",
+      "Star Wars: Rebels"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:06:49.544497"
+  },
+  {
+    "id": 105,
+    "slug": "dr-pershing",
+    "name": "Dr. Pershing",
+    "physical_traits": {
+      "height_cm": 1.75,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": [],
+    "affiliations": [
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "A scientist who worked under the Empire, Dr. Pershing is a geneticist who studies cloning. He is a member of the Imperial Remnant and works with Moff Gideon to further the Empire's goals.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:04:09.544497"
+  },
+  {
+    "id": 106,
+    "slug": "garazed-orrelios",
+    "name": "Garazed Orrelios",
+    "physical_traits": {
+      "height_cm": 2.1,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Lasat"
+    ],
+    "planets": [
+      "Lasan"
+    ],
+    "affiliations": [
+      "The New Republic"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "Meet the muscle of the Ghost team. Garazeb Zeb Orrelios was a cunning Lasat honor guard who adopted the cause of rebellion against the Empire. Despite his hulking frame, Zeb was actually highly-educated and articulate. Still, he loved beating up stormtroopers, who he nicknamed bucket heads.",
+    "appearances": [
+      "Star Wars: Rebels",
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:04:11.544497"
+  },
+  {
+    "id": 107,
+    "slug": "morgan-elsbeth",
+    "name": "Morgan Elsbeth",
+    "physical_traits": {
+      "height_cm": 1.63,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "famale",
+    "species": [
+      "Human"
+    ],
+    "planets": [
+      "Dathomir",
+      "Corvus"
+    ],
+    "affiliations": [
+      "Galactic Empire"
+    ],
+    "masters": [
+      "Thrawn"
+    ],
+    "apprentices": [],
+    "description": "Once the coldhearted Magistrate of Calodan, Morgan Elsbeth has reinvented herself many times over the course of her life. Born as a Nightsister on Dathomir, Morgan watched as she lost her clan in a Separatist invasion. On the world of Corvus, Elsbeth found new meaning as the Magistrate of Calodan, a formidable fighter who allied herself with Thrawn and the Empire in her bid for power. But after the New Republic was formed, Elsbeth’s allegiance to the Grand Admiral never waned.",
+    "appearances": [
+      "Star Wars: The Mandalorian",
+      "Star Wars: Ahsoka",
+      "Star Wars: Tales of the Empire"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:04:32.544497"
+  },
+  {
+    "id": 108,
+    "slug": "ma-13",
+    "name": "MA-13",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Droid"
+    ],
+    "planets": [
+      "Nevarro"
+    ],
+    "affiliations": [
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "In the burning sulphuric atmosphere of the Nevarro lava rivers, ferry droids operate keelboats to provide safe passage for travelers, steering with special poles clenched in long, spindly limbs.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:01:12.544497"
+  },
+  {
+    "id": 109,
+    "slug": "gamorrean-fighters",
+    "name": "Gamorrean",
+    "physical_traits": {
+      "height_cm": 1.8,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Gamorr"
+    ],
+    "planets": [
+      "Morak"
+    ],
+    "affiliations": [
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "In underground gladiator matches, Gamorrean serve as powerhouse fighters that no opponent wants to face.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:02:13.544497"
+  },
+  {
+    "id": 110,
+    "slug": "gor-koresh",
+    "name": "Gor Koresh",
+    "physical_traits": {
+      "height_cm": 1.73,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Abyssin"
+    ],
+    "planets": [],
+    "affiliations": [
+      "Arena the Koresh"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "A low-life gangster on a lawless world, Gor Koresh is a gambler who profits from cruel underground gladiator matches.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:02:15.544497"
+  },
+  {
+    "id": 111,
+    "slug": "kelleran-beq",
+    "name": "Belleran Beq",
+    "physical_traits": {
+      "height_cm": 1.87,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": [
+      "Nevarro"
+    ],
+    "affiliations": [
+      "Orden Jedi"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "Beq was a human Jedi Master who served in the Jedi Order. He was often assisted by the protocol droid AD-3 and the astromech droid LX-R5, and served aboard the starship Athylia. During Operation: Knightfall, Beq successfully escaped the temple with the help of sympathetic members of the Naboo Royal Security Forces, fleeing Coruscant with the infant Grogu.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:03:13.544497"
+  },
+  {
+    "id": 112,
+    "slug": "q9-0",
+    "name": "QP-0",
+    "physical_traits": {
+      "height_cm": 1.87,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Droid"
+    ],
+    "planets": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Also known as Zero or Z, he was a droid who worked as a mercenary during the New Republic era. Zero was part of a team that included Migs Mayfeld, Burg, Xi'an, and the bounty hunter known as the Mandalorian, who were hired by Ranzar Malk to rescue his associate Qin.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:03:13.544497"
+  },
+  {
+    "id": 113,
+    "slug": "quin",
+    "name": "Quin",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Twi'lek"
+    ],
+    "planets": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "A prisoner aboard one of the New Republic's most secure ships, the Twi'lek Qin once worked jobs with his sister, Xi'an.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:01:33.544497"
+  },
+  {
+    "id": 114,
+    "slug": "xi'an",
+    "name": "Xi'an",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "famale",
+    "species": [
+      "Twi'lek"
+    ],
+    "planets": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "An athletic and agile Twi'lek, Xi'an is the bladed weapons expert of a gang of criminals working with the Mandalorian.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:01:37.544497"
+  },
+  {
+    "id": 115,
+    "slug": "ran-malk",
+    "name": "Ran Malk",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Ranzar, Ran Malk operates out of the Roost space station and is highly skilled at putting together just the right crew for the task at hand.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:01:39.544497"
+  },
+  {
+    "id": 116,
+    "slug": "the-mythrol",
+    "name": "The Mythrol",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Mythrol"
+    ],
+    "planets": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "Once the Mandalorian's bounty, the fledgling Mythrol is now trying to make a living in the office of the Magistrate of Nevarro.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:01:59.544497"
+  },
+  {
+    "id": 117,
+    "slug": "toro-calican",
+    "name": "Toro Calican",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "He was a human bounty hunter during the time of the New Republic. Calican gravely wounded Shand and betrayed the Mandalorian. Returning to the Mandalorian's ship, the Razor Crest, Calican captured the Child that Djarin had rescued from the Guild. However, the Mandalorian ultimately killed Calican and left Tatooine with the Child.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": null
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:01:59.544497"
+  },
+  {
+    "id": 118,
+    "slug": "valin-hess",
+    "name": "Valin Hess",
+    "physical_traits": {
+      "height_cm": 1.88,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Human"
+    ],
+    "planets": [
+      "Morak"
+    ],
+    "affiliations": [
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": [
+      "Imperial Remnants of Morak"
+    ],
+    "description": "Valin Hess was a top general in the Imperial Army, and continues to be loyal to the Empire's ideals in this chaotic era of the New Republic.",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": "Morak"
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:01:59.544497"
+  },
+  {
+    "id": 119,
+    "slug": "vane",
+    "name": "Vane",
+    "physical_traits": {
+      "height_cm": 2.3,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Nikto"
+    ],
+    "planets": [],
+    "affiliations": [
+      "Gorian Shard Pirate Crew"
+    ],
+    "masters": [],
+    "apprentices": [],
+    "description": "A rowdy Nikto once loyal to the pirate king Gorian Shard, Vane’s allegiance is negotiable. Since clashing with Greef Karga on Nevarro, the quarrelsome troublemaker has fallen in with a new crew, serving first with Captain Silvo and now with Captain Brutus.",
+    "appearances": [
+      "Star Wars: The Mandalorian",
+      "Star Wars: Skeleton Crew"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": "Morak"
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:12:19.544497"
+  },
+  {
+    "id": 120,
+    "slug": "shydopp",
+    "name": "Shydopp",
+    "physical_traits": {
+      "height_cm": null,
+      "mass_kg": null,
+      "hair_color": null,
+      "eye_color": null
+    },
+    "gender": "male",
+    "species": [
+      "Shydopp"
+    ],
+    "planets": [
+      "Morak"
+    ],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": [],
+    "description": "The Shydopp pirate gangs have been a menace to the Imperial mining operation on Morak, being bold enough to attack even well-armored Imperial transports to steal valuable materials..",
+    "appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "portrayed_by": [],
+    "birth": {
+      "year": null,
+      "location": null
+    },
+    "death": {
+      "year": null,
+      "location": "Morak"
+    },
+    "force_sensitive": false,
+    "is_canon": true,
+    "avatar_url": "",
+    "created_at": "2026-04-05T01:11:19.544497"
   }
 ]

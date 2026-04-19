@@ -37,3 +37,34 @@ def test_ensure_list_from_none():
 def test_gender_unknown_to_none():
     c = CharacterEntity(**mk(gender='unknown'))
     assert c.gender is None
+
+
+# ── PhysicalTraits: coercion numerica (antes duplicada en mapper) ────────
+
+def test_height_string_to_float():
+    t = PhysicalTraits(height_cm='172')
+    assert t.height_cm == 172.0
+
+def test_mass_string_to_float():
+    t = PhysicalTraits(mass_kg='77')
+    assert t.mass_kg == 77.0
+
+def test_height_unknown_to_none():
+    t = PhysicalTraits(height_cm='unknown')
+    assert t.height_cm is None
+
+def test_mass_na_to_none():
+    t = PhysicalTraits(mass_kg='n/a')
+    assert t.mass_kg is None
+
+def test_height_comma_decimal():
+    t = PhysicalTraits(height_cm='1,72')
+    assert t.height_cm == 1.72
+
+def test_height_none_stays_none():
+    t = PhysicalTraits(height_cm=None)
+    assert t.height_cm is None
+
+def test_height_float_stays_float():
+    t = PhysicalTraits(height_cm=180.5)
+    assert t.height_cm == 180.5

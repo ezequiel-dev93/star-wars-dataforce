@@ -1,50 +1,72 @@
 from __future__ import annotations
-from playwright.async_api import async_playwright, Browser, Page
-from src.core.ports.scraper_port import ScraperPort
-from src.shared.config.settings import settings
-from src.shared.logging.logger import get_logger
+import re
+from urllib.parse import quote
+from playwright.async_api import Page
+from src.infrastructure.scraping.base_playwright_scraper import BasePlaywrightScraper
+from src.config.settings import settings
+from src.config.logging.logger import get_logger
 
 logger = get_logger(__name__)
-_SELECTOR = '.mw-parser-output > p:not(.quote)'
 
-class WookiepediaScraper(ScraperPort):
-    def __init__(self) -> None:
-        self._playwright = None
-        self._browser: Browser | None = None
+# Selectores CSS en cascada (orden de prioridad) | Fandom/Wookieepedia
+_CONTENT_SELECTORS = [
+    '#content p',
+    '.mw-parser-output > p',
+    '#mw-content-text .mw-parser-output p',
+    '.page-content p',
+    'article p',
+]
 
-    async def _ensure_browser(self) -> Browser:
-        if self._browser is None:
-            self._playwright = await async_playwright().start()
-            self._browser = await self._playwright.chromium.launch(headless=settings.scraping_headless)
-        return self._browser
+# Consent específicos de Fandom
+_WOOKIEEEPEDIA_CONSENT_SELECTORS = [
+    '[data-tracking-opt-in-accept]',
+    '.NN0_TB_DIs498iAction--accept',
+    'button[aria-label="Accept"]',
+    '#onetrust-accept-btn-handler',
+]
 
-    async def scrape_description(self, character_name: str) -> str:
-        browser = await self._ensure_browser()
-        page: Page = await browser.new_page()
-        slug = character_name.replace(' ', '_')
-        url = f'{settings.wookieepedia_base_url}/{slug}'
-        try:
-            await page.goto(url, wait_until='domcontentloaded', timeout=20_000)
-            await page.wait_for_selector(_SELECTOR, timeout=8_000)
-            for p in await page.query_selector_all(_SELECTOR):
-                text = (await p.inner_text()).strip()
-                if len(text) > 80:
-                    return text
-            return ''
-        except Exception as exc:
-            logger.warning(f'Error scrapeando {character_name!r}: {exc}')
-            return ''
-        finally:
-            await page.close()
 
-    async def close(self) -> None:
-        if self._browser: await self._browser.close()
-        if self._playwright: await self._playwright.stop()
-        self._browser = self._playwright = None
+def _build_wiki_slug(name: str) -> str:
+    """Construye slug compatible con URLs de Wookieepedia."""
+    return quote(name.strip().replace(' ', '_'), safe='_/:')
 
-    async def __aenter__(self) -> 'WookiepediaScraper':
-        await self._ensure_browser()
-        return self
 
-    async def __aexit__(self, *args: object) -> None:
-        await self.close()
+def _clean_description(text: str) -> str:
+    """Limpia texto de descripción de referencias y espacios."""
+    if "If you want to create a new article" in text or "doesn't have an article" in text:
+        return ""
+    text = re.sub(r'\[\d+\]', '', text)
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
+
+
+class WookieepediaScraper(BasePlaywrightScraper):
+    """
+    Scraper de Wookieepedia usando la base de Playwright.
+    Implementa selectores específicos de Fandom/Wookieepedia.
+    """
+
+    CONSENT_SELECTORS = _WOOKIEEEPEDIA_CONSENT_SELECTORS
+
+    def _build_url(self, name: str) -> str:
+        """Construye URL de Wookieepedia."""
+        slug = _build_wiki_slug(name)
+        return f'{settings.wookieepedia_base_url}/{slug}'
+
+    async def _extract_description(self, page: Page, character_name: str) -> str:
+        """
+        Extrae primer párrafo válido probando selectores en cascada.
+        Retorna el primer párrafo con >80 caracteres.
+        """
+        for selector in _CONTENT_SELECTORS:
+            try:
+                elements = await page.query_selector_all(selector)
+                for el in elements:
+                    text = (await el.inner_text()).strip()
+                    cleaned = _clean_description(text)
+                    if len(cleaned) > 80:
+                        logger.debug(f'{character_name!r}: Encontrado con "{selector}"')
+                        return cleaned
+            except Exception:
+                continue
+        return ''

@@ -14,3 +14,25 @@ dependencies = [
     "pytest-asyncio>=1.3.0",
     "rich>=14.3.3",
 ]
+
+[tool.pyright]
+# Configuracion para Pyright (similar a Pyrefly)
+include = ["src", "tests", "main.py"]
+exclude = [".venv", "__pycache__", "output"]
+pythonVersion = "3.12"
+pythonPlatform = "Windows"
+
+# Paths adicionales para imports
+extraPaths = ["src"]
+
+[tool.mypy]
+# Configuracion para MyPy
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+mypy_path = "src"
+exclude = [".venv"]
+
+[[tool.mypy.overrides]]
+module = "playwright.*"
+ignore_missing_imports = true

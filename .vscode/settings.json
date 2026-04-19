@@ -1,0 +1,49 @@
+{
+  // Python interpreter
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+
+  // Python analysis for Pylance/Pyright
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/src",
+    "${workspaceFolder}/.venv/Lib/site-packages"
+  ],
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.useImportHeuristic": true,
+  "python.analysis.include": [
+    "src",
+    "tests",
+    "main.py"
+  ],
+  "python.analysis.packageIndexDepths": [
+    {"name": "playwright", "depth": 3, "includeAllSymbols": true}
+  ],
+  "python.analysis.typeCheckingMode": "off",
+
+  // Editor settings
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  // File exclusion
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.venv": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true
+  },
+
+  // Search exclusion
+  "search.exclude": {
+    "**/.venv": true,
+    "**/node_modules": true
+  },
+
+  // Testing
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "tests"
+  ]
+}
