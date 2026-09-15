@@ -1,336 +1,206 @@
+"""
+Scraper de StarWars.com Databank implementado con Scrapling.
+
+Utiliza Scrapling (Fetcher / StealthyFetcher) con fingerprinting TLS y evasión
+nativa de WAFs (Akamai / Cloudflare), logrando ejecución headless rápida e invisible
+sin necesidad de levantar ventanas gráficas de navegador.
+"""
 from __future__ import annotations
 import asyncio
 import re
 from dataclasses import dataclass, field
 from typing import Optional
-from playwright.async_api import async_playwright, Browser, Page
+
+from scrapling import Fetcher, StealthyFetcher
 from src.core.ports.scraper_port import ScraperPort
 from src.config.settings import settings
 from src.config.logging.logger import get_logger
+from src.infrastructure.storage.image_downloader import clean_image_url, is_animated_image
 
 logger = get_logger(__name__)
 
+
 @dataclass
 class DatabankCharacterData:
-    # Datos completos de un personaje del Databank.
+    """Datos estructurados extraídos de una ficha de Star Wars Databank."""
     name: str
-    description: str = ''
+    description: str = ""
     gender: Optional[str] = None
     height: Optional[str] = None
     species: list[str] = field(default_factory=list)
     locations: list[str] = field(default_factory=list)
     appearances: list[str] = field(default_factory=list)
-    url: str = ''
-
-
-# Selectores específicos para StarWars.com Databank (basados en análisis de HTML real)
-# La estructura usa módulos de Matterhorn CMS
-_DESCRIPTION_SELECTORS = [
-    # Meta description (más confiable para la descripción principal)
-    'meta[name="description"]',
-    # Contenido principal en módulos de texto
-    '.module.rich_text p',
-    '[data-module-type="rich_text"] p',
-    '.content-body p',
-]
-
-# Para datos de la ficha técnica - StarWars Databank usa dt/dd o divs específicos
-_DATA_SELECTORS = {
-    'gender': [
-        'dt:has-text("Gender") + dd',
-        'div:has(dt:has-text("Gender")) dd',
-        '[class*="gender"]',
-    ],
-    'height': [
-        'dt:has-text("Height") + dd',
-        'div:has(dt:has-text("Height")) dd',
-        '[class*="height"]',
-    ],
-    'species': [
-        'dt:has-text("Species") + dd',
-        'div:has(dt:has-text("Species")) dd',
-        '[class*="species"]',
-    ],
-}
-
-# Selectores de cookies
-_CONSENT_SELECTORS = [
-    'button[id*="accept"]',
-    '#onetrust-accept-btn-handler',
-    'button[aria-label*="Accept"]',
-]
+    image_url: str = ""
+    url: str = ""
 
 
 def _build_databank_slug(name: str) -> str:
-    # Construye slug compatible con URLs de Databank.
+    """Construye un slug compatible con URLs de Star Wars Databank."""
     normalized = name.strip().lower()
-    # El Databank usa guiones simples y no tiene acentos en URLs
-    for char, replacement in {'é': 'e', 'á': 'a', 'í': 'i', 'ó': 'o', 'ú': 'u', 'ü': 'u', 'ñ': 'n'}.items():
-        normalized = normalized.replace(char, replacement)
-    # Remover caracteres especiales excepto letras, números, espacios y guiones
+    accents = {
+        'é': 'e', 'á': 'a', 'í': 'i', 'ó': 'o', 'ú': 'u',
+        'ü': 'u', 'ñ': 'n', 'î': 'i', 'ï': 'i'
+    }
+    for char, rep in accents.items():
+        normalized = normalized.replace(char, rep)
     slug = re.sub(r'[^\w\s-]', '', normalized)
-    # Reemplazar espacios múltiples con guión simple
     slug = re.sub(r'[\s_]+', '-', slug)
-    # Eliminar guiones múltiples
     slug = re.sub(r'-{2,}', '-', slug)
     return slug.strip('-')
 
 
-def _clean_description(text: str) -> str:
-    # Limpia texto de descripción
+def _clean_text(text: str | None) -> str:
+    """Limpia espacios y caracteres residuales."""
     if not text:
         return ""
-    # Detectar mensajes de error
-    if any(x in text.lower() for x in ['404', 'sorry', 'not found', 'error']):
-        if len(text) < 200:  # Mensajes cortos de error
-            return ""
-    # Limpiar espacios
     text = re.sub(r'\s+', ' ', text)
-    # Remover "Read More" y similares
-    text = re.sub(r'\s*(READ MORE|Read More|show more|SHOW MORE)\s*$', '', text, flags=re.IGNORECASE)
-    return text.strip()
-
-
-def _clean_text(text: str) -> str:
-    # Limpia texto general.
-    if not text:
-        return ''
-    text = re.sub(r'\s+', ' ', text).strip()
-    # Remover etiquetas como [Show], [Hide], etc.
     text = re.sub(r'\[\w+\]', '', text)
     return text.strip()
 
 
-def _extract_meta_content(html: str, property_name: str) -> str:
-    #Extrae contenido de meta tags del HTML.
-    # Pattern para meta description
-    pattern = f'<meta[^>]+name="{property_name}"[^>]+content="([^"]*)"'
-    match = re.search(pattern, html, re.IGNORECASE)
-    if match:
-        return match.group(1)
-    # Pattern alternativo
-    pattern = f'<meta[^>]+content="([^"]*)"[^>]+name="{property_name}"'
-    match = re.search(pattern, html, re.IGNORECASE)
-    if match:
-        return match.group(1)
-    return ''
-
-
 class StarWarsDatabankScraper(ScraperPort):
     """
-    Scraper de StarWars.com Databank.
-    NOTA: Requiere headless=False para evitar bloqueo de Akamai.
+    Scraper oficial de StarWars.com Databank utilizando Scrapling.
     """
 
-    def __init__(self, headless: bool = False) -> None:
-        self._playwright = None
-        self._browser: Browser | None = None
-        self._headless = headless
+    def __init__(self, timeout: int = 15) -> None:
+        self._timeout = timeout
 
-    async def _ensure_browser(self) -> Browser:
-        # Inicializa el browser de Playwright si no existe.
-        if self._browser is None:
-            self._playwright = await async_playwright().start()
-            args = ['--disable-blink-features=AutomationControlled']
-            self._browser = await self._playwright.chromium.launch(
-                headless=self._headless,  # Databank generalmente requiere headless=False
-                args=args,
-            )
-        return self._browser
-
-    async def _dismiss_consent(self, page: Page) -> None:
-        # Intenta cerrar banners de cookies/GDPR.
-        for selector in _CONSENT_SELECTORS:
-            try:
-                btn = page.locator(selector).first
-                if await btn.is_visible(timeout=2_000):
-                    await btn.click(timeout=2_500)
-                    await page.wait_for_timeout(500)
-                    return
-            except Exception:
-                continue
-
-    async def _extract_from_meta(self, page: Page) -> str:
-        # Extrae descripción del meta tag.
-        try:
-            meta = await page.query_selector('meta[name="description"]')
-            if meta:
-                content = await meta.get_attribute('content')
-                if content:
-                    return _clean_description(content)
-        except Exception:
-            pass
-        return ''
-
-    async def _extract_from_content(self, page: Page) -> str:
-        #Extrae descripción del contenido principal.
-        for selector in _DESCRIPTION_SELECTORS[1:]:  # Skip meta, ya probado
-            try:
-                elements = await page.query_selector_all(selector)
-                for el in elements:
-                    text = await el.inner_text()
-                    cleaned = _clean_description(text)
-                    # Solo aceptar descripciones de longitud razonable
-                    if len(cleaned) > 50 and len(cleaned) < 500:
-                        return cleaned
-            except Exception:
-                continue
-        return ''
-
-    async def _extract_stats_section(self, page: Page) -> dict[str, str]:
-        # Extrae datos de la sección de estadísticas/ficha técnica.
-        stats = {}
-        try:
-            # Buscar la sección de stats en el formato del Databank
-            # Usa dt/dd pairs o divs con clases específicas
-            stats_container = await page.query_selector('[class*="stats"], [class*="databank-stats"], .module.display')
-            if stats_container:
-                # Buscar todos los dt/dd dentro del contenedor
-                dts = await stats_container.query_selector_all('dt')
-                for dt in dts:
-                    label = await dt.inner_text()
-                    label = _clean_text(label).lower()
-                    # El siguiente dd contiene el valor
-                    dd = await dt.evaluate('el => el.nextElementSibling')
-                    if dd:
-                        value = await page.evaluate('el => el.innerText', dd)
-                        value = _clean_text(value)
-                        if value and value.lower() not in ('unknown', 'n/a', '', 'none', 'default'):
-                            stats[label] = value
-        except Exception as exc:
-            logger.debug(f"Error extrayendo stats: {exc}")
-        return stats
-
-    async def _extract_appearances(self, page: Page) -> list[str]:
-        # Extrae apariciones en series/películas.
-        results = []
-        seen = set()
-
-        # Títulos de series/películas válidos del Databank
-        valid_prefixes = (
-            'Star Wars: The Mandalorian',
-            'Star Wars: The Book of Boba Fett',
-            'Star Wars: The Clone Wars',
-            'Star Wars: Rebels',
-            'Star Wars: Andor',
-            'Star Wars: Obi-Wan Kenobi',
-            'Star Wars: Ahsoka',
-            'Star Wars: Skeleton Crew',
-            'Star Wars: The Acolyte',
-        )
-
-        try:
-            links = await page.query_selector_all('a')
-            for link in links:
-                text = await link.inner_text()
-                cleaned = _clean_text(text)
-                # Solo incluir series/películas específicas
-                if cleaned and cleaned.startswith(valid_prefixes):
-                    if cleaned.lower() not in seen and len(cleaned) < 50:
-                        seen.add(cleaned.lower())
-                        results.append(cleaned)
-        except Exception:
-            pass
-
-        return results
-
-    async def scrape_character_full(self, name_or_slug: str) -> DatabankCharacterData | None:
-        # Scrapea datos completos de un personaje del Databank.
-        browser = await self._ensure_browser()
-        slug = _build_databank_slug(name_or_slug)
-        url = f"{settings.starwars_databank_base_url}/{slug}"
-
-        logger.debug(f"[Databank] Scrapeando: {url}")
-
-        page = await browser.new_page()
-        try:
-            await page.set_extra_http_headers({
-                "Accept-Language": "en-US,en;q=0.5",
-            })
-
-            await page.goto(url, wait_until="networkidle", timeout=settings.scraping_page_timeout_ms)
-            await asyncio.sleep(2)
-            await self._dismiss_consent(page)
-
-            # Extraer nombre del título
-            name = name_or_slug
-            try:
-                title_el = await page.query_selector('title')
-                if title_el:
-                    title_text = await title_el.inner_text()
-                    # El título es formato: "Nombre - Databank | StarWars.com"
-                    if ' - Databank' in title_text:
-                        name = title_text.split(' - Databank')[0].strip()
-                        # Remover subtítulo entre paréntesis
-                        name = re.sub(r'\s*\([^)]*\)\s*$', '', name)
-            except Exception:
-                pass
-
-            # Extraer descripción - primero intentar meta
-            description = await self._extract_from_meta(page)
-            if not description:
-                description = await self._extract_from_content(page)
-
-            # Extraer datos técnicos de la sección de stats
-            stats = await self._extract_stats_section(page)
-            gender = stats.get('gender')
-            height = stats.get('height')
-            species = [stats['species']] if 'species' in stats else []
-
-            # Extraer apariciones
-            appearances = await self._extract_appearances(page)
-
-            # Si no hay descripción ni datos, probablemente es 404
-            if not description and not gender and not species and not height:
-                logger.warning(f"[Databank] {name!r}: Parece ser 404 o sin datos")
-                return None
-
-            data = DatabankCharacterData(
-                name=name,
-                description=description,
-                gender=gender,
-                height=height,
-                species=species if species else [],
-                locations=[],  # El Databank no tiene ubicaciones claras
-                appearances=appearances,
-                url=url,
-            )
-
-            logger.info(f"[Databank] {name!r}: Extraído con éxito")
-            return data
-
-        except Exception as exc:
-            logger.warning(f"[Databank] {name_or_slug!r}: Error: {exc}")
-            return None
-        finally:
-            await page.close()
-
-    async def scrape_series_characters(self, series_slug: str) -> list[DatabankCharacterData]:
-        """
-        Scrapea personajes de una serie del Databank.
-        NOTA: Esta función es experimental - el Databank no tiene una API clara
-        para extraer todos los personajes de una serie.
-        """
-        logger.warning(f"[Databank] scrape_series_characters es experimental para {series_slug}")
-        # Por ahora, devolver lista vacía - necesitaría análisis más profundo.
-        return []
-
-    async def scrape_description(self, name: str) -> str:
-        # Implementación del ScraperPort - solo devuelve descripción.
-        data = await self.scrape_character_full(name)
-        return data.description if data else ''
-
-    async def close(self) -> None:
-        # Cierra el browser y libera recursos.
-        if self._browser:
-            await self._browser.close()
-        if self._playwright:
-            await self._playwright.stop()
-        self._browser = self._playwright = None
-
-    async def __aenter__(self) -> 'StarWarsDatabankScraper':
-        await self._ensure_browser()
+    async def __aenter__(self) -> StarWarsDatabankScraper:
         return self
 
-    async def __aexit__(self, *args: object) -> None:
+    async def __aexit__(self, exc_type, exc_val, exc_tb) -> None:
         await self.close()
+
+    async def close(self) -> None:
+        """Cierra recursos si los hubiera (Scrapling Fetcher es stateless)."""
+        pass
+
+    def _fetch_page_sync(self, url: str):
+        """Petición síncrona con Fetcher y fallback a StealthyFetcher si hay bloqueo."""
+        try:
+            response = Fetcher.get(url, timeout=self._timeout)
+            if response.status in (403, 503):
+                logger.warning(f"[Databank] WAF detectado (status {response.status}). Activando StealthyFetcher...")
+                stealth = StealthyFetcher()
+                return stealth.fetch(url)
+            return response
+        except Exception as exc:
+            logger.debug(f"[Databank] Error con Fetcher: {exc}. Intentando con StealthyFetcher...")
+            stealth = StealthyFetcher()
+            return stealth.fetch(url)
+
+    async def _fetch_page(self, url: str):
+        """Ejecuta la petición en un hilo para no bloquear el bucle de eventos asyncio."""
+        return await asyncio.to_thread(self._fetch_page_sync, url)
+
+    async def scrape_description(self, character_name: str) -> str:
+        """Implementación del puerto ScraperPort para obtener descripción."""
+        data = await self.scrape_character_full(character_name)
+        return data.description if data else ""
+
+    async def scrape_character_full(self, name_or_slug: str) -> DatabankCharacterData | None:
+        """
+        Extrae datos completos de la ficha del personaje en Star Wars Databank.
+        """
+        slug = _build_databank_slug(name_or_slug)
+        url = f"{settings.starwars_databank_base_url.rstrip('/')}/{slug}"
+
+        logger.debug(f"[Databank] Consultando: {url}")
+        try:
+            response = await self._fetch_page(url)
+        except Exception as exc:
+            logger.warning(f"[Databank] Error de conexión para '{name_or_slug}': {exc}")
+            return None
+
+        if not response or response.status != 200:
+            logger.debug(f"[Databank] Ficha no encontrada (Status {getattr(response, 'status', 'None')}) para: {url}")
+            return None
+
+        # 1. Nombre
+        page_title = response.css("title::text").get() or ""
+        name = name_or_slug
+        if page_title:
+            clean_title = page_title.split("- Databank")[0].split("|")[0].strip()
+            # Remover paréntesis como (Din Djarin) si queremos el nombre principal o mantenerlo
+            if clean_title:
+                name = clean_title
+
+        # 2. Descripción (Meta description y párrafos del cuerpo)
+        meta_desc = response.css('meta[name="description"]::attr(content)').get() or ""
+        body_paras = response.css(
+            ".rich-text-container p::text, "
+            ".content-container p::text, "
+            ".databank-content p::text, "
+            ".module.rich_text p::text"
+        ).getall()
+
+        description_parts = []
+        if meta_desc and "Experience Star Wars" not in meta_desc:
+            description_parts.append(_clean_text(meta_desc))
+
+        for p in body_paras:
+            cleaned_p = _clean_text(p)
+            if cleaned_p and len(cleaned_p) > 25 and cleaned_p not in description_parts:
+                description_parts.append(cleaned_p)
+
+        full_description = " ".join(description_parts).strip()
+        if not full_description and meta_desc:
+            full_description = _clean_text(meta_desc)
+
+        # 3. Categorías y estadísticas (.stats-container .category)
+        stats_map: dict[str, list[str]] = {}
+        for cat in response.css(".stats-container .category"):
+            heading = _clean_text(cat.css(".heading::text").get()).lower()
+            values = [_clean_text(v) for v in cat.css(".property-name::text").getall()]
+            values = [v for v in values if v]
+            if heading and values:
+                stats_map[heading] = values
+
+        # Parsear stats
+        species_list = stats_map.get("species", [])
+        locations_list = stats_map.get("locations", [])
+        appearances_list = stats_map.get("appearances", [])
+
+        # Género y dimensiones si están presentes
+        gender = None
+        if "gender" in stats_map and stats_map["gender"]:
+            gender = stats_map["gender"][0]
+
+        height = None
+        if "dimensions" in stats_map and stats_map["dimensions"]:
+            height = stats_map["dimensions"][0]
+
+        # 4. Imagen del personaje (Retrato principal)
+        # Se busca en .aspect-container img o imagen principal descartando dibujos/animación
+        image_url = ""
+        portrait_imgs = response.css(".aspect-container img, .image-wrapper img, .thumb img")
+        for img in portrait_imgs:
+            src = img.attrib.get("data-src") or img.attrib.get("src")
+            alt = img.attrib.get("alt") or ""
+            if src and "lumiere" in src and "svg" not in src:
+                if not is_animated_image(src, alt):
+                    image_url = clean_image_url(src)
+                    break
+
+        # Fallback a cualquier imagen de lumiere con region (que no sea dibujo)
+        if not image_url:
+            for img in response.css("img"):
+                src = img.attrib.get("data-src") or img.attrib.get("src")
+                alt = img.attrib.get("alt") or ""
+                if src and "lumiere" in src and "region=" in src and "svg" not in src:
+                    if not is_animated_image(src, alt):
+                        image_url = clean_image_url(src)
+                        break
+
+        return DatabankCharacterData(
+            name=name,
+            description=full_description,
+            gender=gender,
+            height=height,
+            species=species_list,
+            locations=locations_list,
+            appearances=appearances_list,
+            image_url=image_url,
+            url=url,
+        )
